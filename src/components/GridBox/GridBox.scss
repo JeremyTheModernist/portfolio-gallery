@@ -26,6 +26,23 @@ $grid__cols: 6;
     max-width: 100%;
     background-color: rgba(0,0,0,.1);
     height:auto;
-    margin-bottom:map-get($margin-ramp,sm)
+    margin-top:map-get($margin-ramp,lg);
+    margin-bottom:map-get($margin-ramp,lg);
+    display:flex;
+    flex-flow:column wrap;
+    &--empty{
+      background-color:none;
+    }
+  }
+  .item__title{
+    @include css-reset;
+    font-size:map-get($type-ramp,lg);
+    margin-bottom:map-get($margin-ramp,xxs);
+    color:$primary-color;
+  }
+  .item__subtitle{
+    @include css-reset;
+    font-size:map-get($type-ramp,sm);
+    color:$secondary-color;
   }
 }

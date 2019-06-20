@@ -1,12 +1,12 @@
 import React from 'react';
 import ItemInformation from '../ItemInformation/ItemInformation.js'
 
-function SmallImage(props){
+function MediumImage(props){
   return(
-    <div className="grid__item col-1">
+    <div className="grid__item col-2">
        <ItemInformation id={props.id}/>
     </div>
   )
 }
 
-export default SmallImage;
+export default MediumImage;

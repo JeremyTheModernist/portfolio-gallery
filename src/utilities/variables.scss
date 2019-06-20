@@ -1,6 +1,6 @@
 :root{
   font-size:10px;
-  font-family:helvetica;
+  font-family: 'Roboto', sans-serif;
 }
 
 @mixin css-reset(){
@@ -15,17 +15,18 @@ $secondary-color:lighten($primary-color,30%);
 
 $type-ramp:(
   xs: 1rem,
-  sm: 1.6rem,
-  me: 2rem,
-  la: 2.4rem,
+  sm: 1.4rem,
+  md: 2rem,
+  lg: 2.1rem,
   xl: 3.2rem,
 );
 
 $margin-ramp: (
+  xxs:10px,
   xs: 15px,
   sm: 20px,
-  me: 30px,
-  la: 40px,
+  md: 30px,
+  lg: 40px,
   xl: 60px,
   xxl:80px,
 );
