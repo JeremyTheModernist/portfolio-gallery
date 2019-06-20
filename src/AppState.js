@@ -9,14 +9,16 @@ class AppState extends React.Component{
         id:1,
         content: {
           title:'General Title',
-          subtitle: 'Great Description'
+          subtitle: 'Great Description',
+          src: 'http://drp.mk/i/1z7YGPxCQ6.jpg'
         }
       },
       {
         id:2,
         content: {
           title:'Specefic Title',
-          subtitle: 'Better Description'
+          subtitle: 'Better Description',
+          src: 'http://drp.mk/i/1z7YGPxCQ6.jpg'
         }
       }
   ]

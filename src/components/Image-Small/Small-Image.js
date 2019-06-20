@@ -5,8 +5,8 @@ import ItemImage from '../ItemImage/ItemImage.js'
 function XSmallImage(props){
   return(
     <div className="grid__item col-2">
-       <ItemInformation id={props.id}/>
-       <ItemImage id={props.id}/>
+      <ItemImage id={props.id}/>
+      <ItemInformation id={props.id}/>
     </div>
   )
 }

@@ -24,7 +24,7 @@ $grid__cols: 6;
   margin:auto;
   .grid__item{
     max-width: 100%;
-    background-color: rgba(0,0,0,.1);
+    background-color: rgba(0,0,0,.01);
     height:auto;
     margin-top:map-get($margin-ramp,lg);
     margin-bottom:map-get($margin-ramp,lg);
@@ -44,5 +44,10 @@ $grid__cols: 6;
     @include css-reset;
     font-size:map-get($type-ramp,sm);
     color:$secondary-color;
+  }
+  .item__image img{
+    max-width:100%;
+    height:auto;
+    margin-bottom:map-get($margin-ramp,md)
   }
 }

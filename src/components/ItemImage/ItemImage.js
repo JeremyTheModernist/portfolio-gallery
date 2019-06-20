@@ -10,6 +10,7 @@ function ItemImage(props){
               return props.id == item.id ?
                 <div className="item__image" key={item.id}>
                   {item.id}
+                  <img src={item.content.src}/>
                 </div>
               :
               null
