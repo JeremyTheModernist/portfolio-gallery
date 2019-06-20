@@ -24,7 +24,7 @@ $grid__cols: 6;
   margin:auto;
   .grid__item{
     max-width: 100%;
-    background-color: rgab(0,0,0,.1);
+    background-color: rgba(0,0,0,.1);
     height:auto;
     margin-bottom:map-get($margin-ramp,sm)
   }
