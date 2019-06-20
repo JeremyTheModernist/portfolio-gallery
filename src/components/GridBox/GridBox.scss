@@ -25,6 +25,11 @@ $grid__cols: 6;
   margin:auto;
   position:relative;
   z-index:1;
+  .grid__quote{
+    max-width:100%;
+    font-size:map-get($type-ramp,xl);
+    color:$primary-color;
+  }
   .grid__item{
     cursor:pointer;
     max-width: 100%;

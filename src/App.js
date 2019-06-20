@@ -8,6 +8,7 @@ import SmallImage from './components/Image-Small/Small-Image.js';
 import MediumImage from './components/Image-Medium/Medium-Image.js'
 import LargeImage from './components/Image-Large/Large-Image.js'
 import XXLargeImage from './components/Image-XXL/XXL-Image.js';
+import Quote from './components/Quote/Quote.js'
 
 import Fullscreen from './components/Fullscreen/Fullscreen.js'
 
@@ -27,6 +28,11 @@ class App extends React.Component{
             <MediumImage id={1}/>
             <MediumImage id={1}/>
             <MediumImage id={1}/>
+            <Quote>
+              I have always obsessed over details. When I paint, I am constantly
+              examining all of the intracies of my subject. Where is the light?
+              What texture is it? How do all of these attributes come together?
+            </Quote>
             <LargeImage id={1}/>
             <LargeImage id={2}/>
             <XXLargeImage id={2}/>
