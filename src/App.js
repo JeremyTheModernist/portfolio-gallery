@@ -1,10 +1,19 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
+import GridBox from './components/GridBox/GridBox.js'
+import SmallImage from './components/Small-Image/Small-Image.js'
 
 function App() {
   return (
     <div className="App">
-      hello world
+      <GridBox>
+        <SmallImage/>
+        <SmallImage/>
+        <SmallImage/>
+        <SmallImage/>
+        <SmallImage/>
+        <SmallImage/>
+      </GridBox>
     </div>
   );
 }

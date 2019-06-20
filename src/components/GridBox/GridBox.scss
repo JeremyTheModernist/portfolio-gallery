@@ -1,0 +1,32 @@
+$grid-margin: 4%;
+$col-widths: (
+  1: 12%,
+  2: 28%,
+  3: 44%,
+  4: 60%,
+  5: 76%,
+  6: 92%
+);
+
+$grid__cols: 6;
+
+@for $i from 1 through $grid__cols{
+  .col-#{$i}{
+    margin-left:$grid-margin;
+    flex:0 1 map-get($col-widths,$i);
+    background-color: rgba(0,0,0,.1);
+  }
+};
+
+.grid{
+  display:flex;
+  flex-flow: row wrap;
+  max-width:1600px;
+  margin:auto;
+  .grid__item{
+    max-width: 100%;
+    background-color: rgab(0,0,0,.1);
+    height:auto;
+    margin-bottom:map-get($margin-ramp,sm)
+  }
+}

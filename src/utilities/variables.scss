@@ -1,0 +1,31 @@
+:root{
+  font-size:10px;
+  font-family:helvetica;
+}
+
+@mixin css-reset(){
+  padding:0;
+  margin:0;
+  font-size:1rem;
+  font-weight:normal;
+}
+
+$primary-color:#0C0D0D;
+$secondary-color:lighten($primary-color,30%);
+
+$type-ramp:(
+  xs: 1rem,
+  sm: 1.6rem,
+  me: 2rem,
+  la: 2.4rem,
+  xl: 3.2rem,
+);
+
+$margin-ramp: (
+  xs: 15px,
+  sm: 20px,
+  me: 30px,
+  la: 40px,
+  xl: 60px,
+  xxl:80px,
+);
