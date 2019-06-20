@@ -23,6 +23,8 @@ $grid__cols: 6;
   align-items: center;
   max-width:1600px;
   margin:auto;
+  position:relative;
+  z-index:1;
   .grid__item{
     cursor:pointer;
     max-width: 100%;

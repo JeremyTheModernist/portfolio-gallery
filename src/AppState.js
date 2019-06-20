@@ -4,6 +4,9 @@ const {Provider, Consumer} = React.createContext();
 
 class AppState extends React.Component{
   state = {
+    fullscreen:false,
+    src: null,
+    words: 'cool',
     information: [
       {
         id:1,
@@ -21,7 +24,16 @@ class AppState extends React.Component{
           src: 'http://drp.mk/i/FxDhkqCZ8C.jpg'
         }
       }
-  ]
+    ],
+    toggleFullscreen: (payload) => {
+      this.setState((state) => {
+        return {
+          fullscreen:!state.fullscreen,
+          src: payload
+        }
+      })
+      console.log('received payload',payload)
+    }
   }
   render(){
     return (

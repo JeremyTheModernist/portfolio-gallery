@@ -9,13 +9,15 @@ import MediumImage from './components/Image-Medium/Medium-Image.js'
 import LargeImage from './components/Image-Large/Large-Image.js'
 import XXLargeImage from './components/Image-XXL/XXL-Image.js';
 
+import Fullscreen from './components/Fullscreen/Fullscreen.js'
+
 class App extends React.Component{
 
   render(){
     return (
-
+      <AppState>
         <div className="App">
-          <AppState>
+          <Fullscreen/>
           <GridBox>
             <XSmallImage id={1}/>
             <XSmallImage id={2}/>
@@ -29,8 +31,8 @@ class App extends React.Component{
             <LargeImage id={2}/>
             <XXLargeImage id={2}/>
           </GridBox>
-        </AppState>
         </div>
+      </AppState>
 
     );
   }
