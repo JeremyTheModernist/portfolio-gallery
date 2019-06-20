@@ -20,9 +20,11 @@ $grid__cols: 6;
 .grid{
   display:flex;
   flex-flow: row wrap;
+  align-items: center;
   max-width:1600px;
   margin:auto;
   .grid__item{
+    cursor:pointer;
     max-width: 100%;
     background-color: rgba(0,0,0,.01);
     height:auto;
@@ -48,6 +50,7 @@ $grid__cols: 6;
   .item__image img{
     max-width:100%;
     height:auto;
-    margin-bottom:map-get($margin-ramp,md)
+    margin-bottom:map-get($margin-ramp,md);
+    @include image-states;
   }
 }

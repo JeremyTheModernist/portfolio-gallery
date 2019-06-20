@@ -18,7 +18,7 @@ class AppState extends React.Component{
         content: {
           title:'Specefic Title',
           subtitle: 'Better Description',
-          src: 'http://drp.mk/i/1z7YGPxCQ6.jpg'
+          src: 'http://drp.mk/i/FxDhkqCZ8C.jpg'
         }
       }
   ]
