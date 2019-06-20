@@ -14,7 +14,6 @@ $grid__cols: 6;
   .col-#{$i}{
     margin-left:$grid-margin;
     flex:0 1 map-get($col-widths,$i);
-    background-color: rgba(0,0,0,.1);
   }
 };
 
