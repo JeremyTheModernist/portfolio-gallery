@@ -1,30 +1,20 @@
 import React from 'react';
 import './App.scss';
-import AppState from './AppState.js'
 import GridBox from './components/GridBox/GridBox.js';
+import {AppState} from './AppState.js';
+import Consumer from './AppState.js'
 import SmallImage from './components/Small-Image/Small-Image.js';
 import XXLargeImage from './components/XXL-Image/XXL-Image.js';
 
-const {Provider,Consumer} = React.createContext();
-
-console.log('MY APPSTATE',AppState.Provider)
-
-
 class App extends React.Component{
+
   render(){
     return (
 
         <div className="App">
+          <AppState>
           <GridBox>
-            <AppState>
-              <Consumer>
-                {
-                  (context) => {
-                    console.log("APP context", context)
-                  }
-                }
-              </Consumer>
-            </AppState>
+            <SmallImage/>
             <SmallImage/>
             <SmallImage/>
             <SmallImage/>
@@ -32,6 +22,7 @@ class App extends React.Component{
             <SmallImage/>
             <XXLargeImage/>
           </GridBox>
+        </AppState>
         </div>
 
     );

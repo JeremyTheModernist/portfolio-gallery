@@ -1,7 +1,6 @@
 import React from 'react';
 import ItemInformation from '../ItemInformation/ItemInformation.js'
-
-const {Provider,Consumer} = React.createContext();
+import Consumer from '../../AppState.js'
 
 function SmallImage(props){
   return(
