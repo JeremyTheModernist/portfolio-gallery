@@ -6,11 +6,11 @@
     list-style-type: none;
   }
   &__item{
-    margin-right:map-get($margin-ramp,lg);
+    margin-right:4%;
     font-size: map-get($type-ramp,md)
   }
   &__item--title{
     margin-right:auto;
-    margin-left:map-get($margin-ramp,lg)
+    margin-left:4%;
   }
 }
