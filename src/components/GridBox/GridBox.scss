@@ -61,7 +61,7 @@ $grid__cols: 6;
     font-size:map-get($type-ramp,md);
     margin-bottom:map-get($margin-ramp,xxs);
     color:$primary-color;
-    @include breakpoint(medium){
+    @include breakpoint(large){
       font-size:map-get($type-ramp,lg);
     }
   }

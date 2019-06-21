@@ -7,7 +7,10 @@
   }
   &__item{
     margin-right:4%;
-    font-size: map-get($type-ramp,md)
+    font-size: map-get($type-ramp,md);
+    @include breakpoint(medium){
+      font-size: map-get($type-ramp,lg)
+    }
   }
   &__item--title{
     margin-right:auto;
