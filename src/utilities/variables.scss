@@ -36,7 +36,7 @@ $breakpoints:(
 }
 
 $primary-color:#0C0D0D;
-$secondary-color:lighten($primary-color,50%);
+$secondary-color:lighten($primary-color,40%);
 $highlight-color:#2E998D;
 
 $roboto: 'Roboto', sans-serif;
@@ -46,8 +46,9 @@ $notoBody: 'Noto Serif', serif;
 $type-ramp:(
   xs: 1rem,
   sm: 1.4rem,
-  md: 1.8rem,
-  lg: 2.1rem,
+  md: 1.6rem,
+  md-mobile:2rem,
+  lg: 2.4rem,
   xl: 3.2rem,
 );
 

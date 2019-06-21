@@ -4,16 +4,21 @@
     @include css-reset;
     display:flex;
     list-style-type: none;
+    border-bottom: 1px solid lighten($primary-color,75%);
   }
   &__item{
+    padding-top:20px;
+    padding-bottom:20px;
     margin-right:4%;
-    font-size: map-get($type-ramp,md);
-    @include breakpoint(medium){
-      font-size: map-get($type-ramp,lg)
-    }
+    font-size: map-get($type-ramp,md-mobile);
+    color: $secondary-color;
+    // @include breakpoint(large){
+    //   font-size: map-get($type-ramp,lg)
+    // }
   }
   &__item--title{
     margin-right:auto;
     margin-left:4%;
+    color:$primary-color;
   }
 }

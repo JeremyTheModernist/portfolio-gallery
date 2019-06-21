@@ -58,7 +58,7 @@ $grid__cols: 6;
   }
   .item__title{
     @include css-reset;
-    font-size:map-get($type-ramp,md);
+    font-size:map-get($type-ramp,md-mobile);
     margin-bottom:map-get($margin-ramp,xxs);
     color:$primary-color;
     @include breakpoint(large){
@@ -67,7 +67,7 @@ $grid__cols: 6;
   }
   .item__subtitle{
     @include css-reset;
-    font-size:map-get($type-ramp,sm);
+    font-size:map-get($type-ramp,md);
     color:$secondary-color;
   }
   .item__image{
