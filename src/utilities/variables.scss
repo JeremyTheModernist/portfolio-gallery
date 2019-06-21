@@ -20,6 +20,21 @@
   }
 }
 
+$breakpoints:(
+  small: 320px,
+  medium: 768px,
+  large: 1024px
+);
+
+@mixin breakpoint($mq-breakpoint){
+  @if map-has-key($breakpoints,$mq-breakpoint){
+    $mq-breakpoint: map-get($breakpoints,$mq-breakpoint)
+  }
+  @media screen and (min-width: #{$mq-breakpoint}){
+    @content;
+  }
+}
+
 $primary-color:#0C0D0D;
 $secondary-color:lighten($primary-color,50%);
 $highlight-color:#2E998D;
@@ -28,16 +43,13 @@ $roboto: 'Roboto', sans-serif;
 $noto: 'Noto Serif TC', serif;
 $notoBody: 'Noto Serif', serif;
 
-@media screen and (max-width: 1080px){
-  $type-ramp:(
-    xs: 1rem,
-    sm: 1.4rem,
-    md: 2rem,
-    lg: 2.1rem,
-    xl: 3.2rem,
-  );
-}
-
+$type-ramp:(
+  xs: 1rem,
+  sm: 1.4rem,
+  md: 2rem,
+  lg: 2.1rem,
+  xl: 3.2rem,
+);
 
 $margin-ramp: (
   xxs:10px,

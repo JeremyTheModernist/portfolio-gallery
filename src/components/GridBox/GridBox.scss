@@ -13,7 +13,10 @@ $grid__cols: 6;
 @for $i from 1 through $grid__cols{
   .col-#{$i}{
     margin-left:$grid-margin;
-    flex:0 1 map-get($col-widths,$i);
+    flex:0 1 92%;
+    @include breakpoint(medium){
+      flex:0 1 map-get($col-widths,$i);
+    };
   }
 };
 
@@ -28,11 +31,14 @@ $grid__cols: 6;
   .grid__quote{
     @include css-reset;
     max-width:100%;
-    font-size:map-get($type-ramp,xl);
+    font-size:map-get($type-ramp,lg);
     color:$primary-color;
     font-family:$noto;
     margin-top:map-get($margin-ramp,lg);
-    margin-bottom:map-get($margin-ramp,xl)
+    margin-bottom:map-get($margin-ramp,xl);
+    @include breakpoint(large){
+      font-size:map-get($type-ramp,xl);
+    }
   }
   .grid__item{
     cursor:pointer;
@@ -43,15 +49,21 @@ $grid__cols: 6;
     margin-bottom:map-get($margin-ramp,lg);
     display:flex;
     flex-flow:column wrap;
-    &--empty{
-      background-color:none;
+    &.grid__item--empty{
+      display:none;
+      @include breakpoint(medium){
+        display:block;
+      }
     }
   }
   .item__title{
     @include css-reset;
-    font-size:map-get($type-ramp,lg);
+    font-size:map-get($type-ramp,md);
     margin-bottom:map-get($margin-ramp,xxs);
     color:$primary-color;
+    @include breakpoint(medium){
+      font-size:map-get($type-ramp,lg);
+    }
   }
   .item__subtitle{
     @include css-reset;

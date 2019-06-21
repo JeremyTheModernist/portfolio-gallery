@@ -29,14 +29,14 @@ class App extends React.Component{
             <SmallImage id={1}/>
             <MediumImage id={1}/>
             <MediumImage id={1}/>
-            <XSmallImage empty={true}/>
+            <XSmallImage id={1} empty={true}/>
             <Quote>
               I have always obsessed over details. When I paint, I am constantly
               examining all of the intracies of my subject. Where is the light?
               What texture is it? How do all of these attributes come together?
             </Quote>
             <SmallImage id={1}/>
-            <XSmallImage empty={true}/>
+            <XSmallImage id={1} empty={true}/>
             <MediumImage id={1}/>
           </GridBox>
         </div>
