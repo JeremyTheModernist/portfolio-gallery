@@ -33,9 +33,9 @@ class App extends React.Component{
               examining all of the intracies of my subject. Where is the light?
               What texture is it? How do all of these attributes come together?
             </Quote>
-            <LargeImage id={1}/>
-            <LargeImage id={2}/>
-            <XXLargeImage id={2}/>
+            <SmallImage id={1}/>
+            <XSmallImage empty={true}/>
+            <MediumImage id={1}/>
           </GridBox>
         </div>
       </AppState>

@@ -13,7 +13,7 @@ class AppState extends React.Component{
       {
         id:1,
         content: {
-          title:'General Title',
+          title:'Hawainn Island Florals',
           subtitle: 'Great Description',
           src: 'http://drp.mk/i/1z7YGPxCQ6.jpg'
         }

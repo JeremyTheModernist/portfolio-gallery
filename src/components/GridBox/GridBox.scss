@@ -58,6 +58,9 @@ $grid__cols: 6;
     font-size:map-get($type-ramp,sm);
     color:$secondary-color;
   }
+  .item__image{
+    cursor:pointer;
+  }
   .item__image img{
     max-width:100%;
     height:auto;

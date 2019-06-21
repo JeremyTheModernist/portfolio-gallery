@@ -9,6 +9,9 @@
   font-size:1rem;
   font-weight:normal;
 }
+@mixin link-reset(){
+  text-decoration: none;
+}
 @mixin image-states(){
   transition:.25s;
   opacity:1;
@@ -19,9 +22,11 @@
 
 $primary-color:#0C0D0D;
 $secondary-color:lighten($primary-color,50%);
+$highlight-color:#2E998D;
 
 $roboto: 'Roboto', sans-serif;
 $noto: 'Noto Serif TC', serif;
+$notoBody: 'Noto Serif', serif;
 
 $type-ramp:(
   xs: 1rem,
@@ -39,4 +44,5 @@ $margin-ramp: (
   lg: 40px,
   xl: 60px,
   xxl:80px,
+  xxxl: 120px
 );
