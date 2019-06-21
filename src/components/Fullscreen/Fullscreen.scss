@@ -7,6 +7,7 @@
   height:100vh;
   left:0;
   top:0;
+  overflow:scroll;
   &--visible{
     visibility: visible;
     transition:.45s;
@@ -22,7 +23,7 @@
   display:flex;
   max-width:1600px;
   margin:auto;
-  margin-top:map-get($margin-ramp,xxxl);
+  margin-top:5%;
   align-items: start;
   &__image{
     margin-bottom:map-get($margin-ramp,md);
@@ -43,6 +44,10 @@
     font-size:map-get($type-ramp,sm);
     font-family: $notoBody;
     margin-bottom:map-get($margin-ramp,xl);
+    // @include breakpoint(large){
+    //   color:$secondary-color;
+    //   font-size:map-get($type-ramp,sm);
+    // }
   }
   &__link{
     @include css-reset;

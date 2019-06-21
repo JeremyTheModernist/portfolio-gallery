@@ -44,12 +44,18 @@ $noto: 'Noto Serif TC', serif;
 $notoBody: 'Noto Serif', serif;
 
 $type-ramp:(
-  xs: 1rem,
+  xs: 1.2rem,
   sm: 1.4rem,
   md: 1.6rem,
   md-mobile:2rem,
   lg: 2.4rem,
   xl: 3.2rem,
+);
+
+$leading-ramp: (
+  s:1.25em,
+  m:1.5em,
+  l:1.75em
 );
 
 $margin-ramp: (

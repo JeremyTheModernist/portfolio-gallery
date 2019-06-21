@@ -14,7 +14,7 @@ class AppState extends React.Component{
         id:1,
         content: {
           title:'Hawainn Island Florals',
-          subtitle: 'Great Description',
+          subtitle: 'Watercolor Painting Original 16 x 20 Giclees available',
           src: 'http://drp.mk/i/1z7YGPxCQ6.jpg'
         }
       },
@@ -25,7 +25,40 @@ class AppState extends React.Component{
           subtitle: 'Better Description',
           src: 'http://drp.mk/i/FxDhkqCZ8C.jpg'
         }
+      },
+      {
+        id:3,
+        content: {
+          title:'Florals in the Wild',
+          subtitle: 'Watercolor Painting Original 16 x 20 Giclees available',
+          src: 'http://drp.mk/i/0XSYw9W21w.jpg'
+        }
+      },
+      {
+        id:4,
+        content: {
+          title:'Rotation of White',
+          subtitle: 'Watercolor Painting Original 16 x 20 Giclees available',
+          src: 'http://drp.mk/i/FVwkbTbF4j.jpg'
+        }
+      },
+      {
+        id:5,
+        content: {
+          title:'Flower in Bloom',
+          subtitle: 'Watercolor Painting Original 16 x 20 Giclees available',
+          src: 'http://drp.mk/i/HDqKRZs4Gx.jpg'
+        }
+      },
+      {
+        id:6,
+        content: {
+          title:'Vibrance in Red',
+          subtitle: 'Watercolor Painting Original 16 x 20 Giclees available',
+          src: 'http://drp.mk/i/HgtHYNgNKc.jpg'
+        }
       }
+
     ],
     toggleFullscreen: (payload) => {
       this.setState((state) => {

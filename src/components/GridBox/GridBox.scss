@@ -34,10 +34,21 @@ $grid__cols: 6;
     font-size:map-get($type-ramp,lg);
     color:$primary-color;
     font-family:$noto;
-    margin-top:map-get($margin-ramp,lg);
+    margin-top:map-get($margin-ramp,xl);
     margin-bottom:map-get($margin-ramp,xl);
+    &.quote__intro{
+      color:$secondary-color;
+      margin-top:map-get($margin-ramp,xxxl);
+      
+    }
+    .quote__intro--title{
+      font-family:$roboto;
+      color:$primary-color;
+    }
     @include breakpoint(large){
       font-size:map-get($type-ramp,xl);
+      margin-top:map-get($margin-ramp,xxl);
+      margin-bottom:map-get($margin-ramp,xxl);
     }
   }
   .grid__item{
@@ -45,10 +56,14 @@ $grid__cols: 6;
     max-width: 100%;
     background-color: rgba(0,0,0,0);
     height:auto;
-    margin-top:map-get($margin-ramp,lg);
-    margin-bottom:map-get($margin-ramp,lg);
+    margin-top:map-get($margin-ramp,md);
+    margin-bottom:map-get($margin-ramp,md);
     display:flex;
     flex-flow:column wrap;
+    @include breakpoint(medium){
+      margin-top:map-get($margin-ramp,lg);
+      margin-bottom:map-get($margin-ramp,lg);
+    }
     &.grid__item--empty{
       display:none;
       @include breakpoint(medium){
@@ -69,6 +84,7 @@ $grid__cols: 6;
     @include css-reset;
     font-size:map-get($type-ramp,md);
     color:$secondary-color;
+    line-height:map-get($leading-ramp,m);
   }
   .item__image{
     cursor:pointer;

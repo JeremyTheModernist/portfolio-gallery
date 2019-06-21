@@ -22,22 +22,35 @@ class App extends React.Component{
           <Fullscreen/>
           <Navigation/>
           <GridBox>
-            <XSmallImage id={1}/>
-            <XSmallImage id={2}/>
-            <XSmallImage id={2}/>
-            <XSmallImage id={2}/>
-            <SmallImage id={1}/>
-            <MediumImage id={1}/>
-            <MediumImage id={1}/>
             <XSmallImage id={1} empty={true}/>
-            <Quote>
+            <Quote colNum={5} styleName="quote__intro">
+              <span className="quote__intro--title">Hello, thank you for visiting</span><br/><br/>
+              Margie McInarnay is a painter living and working out of Alabama. Her work includes a range of
+              subjects from detailed botany to rural architecture, often themed around tropical locations.
+              All work is available for purchase.
+            </Quote>
+            <SmallImage id={3}/>
+            <XSmallImage id={1} empty={true}/>
+            <MediumImage id={4}/>
+
+            <XSmallImage id={1} empty={true}/>
+            <SmallImage id={4}/>
+            <XSmallImage id={1} empty={true}/>
+            <SmallImage id={3}/>
+
+            <SmallImage id={6}/>
+            <XSmallImage id={1} empty={true}/>
+            <MediumImage id={5}/>
+
+            <XSmallImage id={1} empty={true}/>
+            <Quote colNum={5}>
               I have always obsessed over details. When I paint, I am constantly
               examining all of the intracies of my subject. Where is the light?
               What texture is it? How do all of these attributes come together?
             </Quote>
-            <SmallImage id={1}/>
+            <MediumImage id={3}/>
             <XSmallImage id={1} empty={true}/>
-            <MediumImage id={1}/>
+            <SmallImage id={4}/>
           </GridBox>
         </div>
       </AppState>
