@@ -1,0 +1,16 @@
+.navigation{
+  width:100%;
+  &__layout{
+    @include css-reset;
+    display:flex;
+    list-style-type: none;
+  }
+  &__item{
+    margin-right:map-get($margin-ramp,lg);
+    font-size: map-get($type-ramp,md)
+  }
+  &__item--title{
+    margin-right:auto;
+    margin-left:map-get($margin-ramp,lg)
+  }
+}

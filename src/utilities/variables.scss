@@ -28,13 +28,16 @@ $roboto: 'Roboto', sans-serif;
 $noto: 'Noto Serif TC', serif;
 $notoBody: 'Noto Serif', serif;
 
-$type-ramp:(
-  xs: 1rem,
-  sm: 1.4rem,
-  md: 2rem,
-  lg: 2.1rem,
-  xl: 3.2rem,
-);
+@media screen and (max-width: 1080px){
+  $type-ramp:(
+    xs: 1rem,
+    sm: 1.4rem,
+    md: 2rem,
+    lg: 2.1rem,
+    xl: 3.2rem,
+  );
+}
+
 
 $margin-ramp: (
   xxs:10px,

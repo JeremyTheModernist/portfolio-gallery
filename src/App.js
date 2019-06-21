@@ -8,8 +8,9 @@ import SmallImage from './components/Image-Small/Small-Image.js';
 import MediumImage from './components/Image-Medium/Medium-Image.js'
 import LargeImage from './components/Image-Large/Large-Image.js'
 import XXLargeImage from './components/Image-XXL/XXL-Image.js';
-import Quote from './components/Quote/Quote.js'
 
+import Navigation from './components/Navigation/Navigation.js'
+import Quote from './components/Quote/Quote.js'
 import Fullscreen from './components/Fullscreen/Fullscreen.js'
 
 class App extends React.Component{
@@ -19,6 +20,7 @@ class App extends React.Component{
       <AppState>
         <div className="App">
           <Fullscreen/>
+          <Navigation/>
           <GridBox>
             <XSmallImage id={1}/>
             <XSmallImage id={2}/>
