@@ -18,7 +18,10 @@
 }
 
 $primary-color:#0C0D0D;
-$secondary-color:lighten($primary-color,40%);
+$secondary-color:lighten($primary-color,50%);
+
+$roboto: 'Roboto', sans-serif;
+$noto: 'Noto Serif TC', serif;
 
 $type-ramp:(
   xs: 1rem,

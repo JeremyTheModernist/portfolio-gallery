@@ -5,8 +5,10 @@ const {Provider, Consumer} = React.createContext();
 class AppState extends React.Component{
   state = {
     fullscreen:false,
-    src: null,
-    words: 'cool',
+    selected: {
+      src: null,
+      title: null
+    },
     information: [
       {
         id:1,
@@ -27,10 +29,25 @@ class AppState extends React.Component{
     ],
     toggleFullscreen: (payload) => {
       this.setState((state) => {
-        return {
-          fullscreen:!state.fullscreen,
-          src: payload
+        if(!state.fullscreen){
+          return {
+            fullscreen:!state.fullscreen,
+            selected: {
+              src: payload.src,
+              title: payload.title
+            }
+          }
         }
+        else{
+          return {
+            fullscreen:!state.fullscreen,
+            selected: {
+              src: null,
+              title: null
+            }
+          }
+        }
+
       })
       console.log('received payload',payload)
     }

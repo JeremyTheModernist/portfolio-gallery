@@ -26,14 +26,18 @@ $grid__cols: 6;
   position:relative;
   z-index:1;
   .grid__quote{
+    @include css-reset;
     max-width:100%;
     font-size:map-get($type-ramp,xl);
     color:$primary-color;
+    font-family:$noto;
+    margin-top:map-get($margin-ramp,lg);
+    margin-bottom:map-get($margin-ramp,xl)
   }
   .grid__item{
     cursor:pointer;
     max-width: 100%;
-    background-color: rgba(0,0,0,.01);
+    background-color: rgba(0,0,0,0);
     height:auto;
     margin-top:map-get($margin-ramp,lg);
     margin-bottom:map-get($margin-ramp,lg);

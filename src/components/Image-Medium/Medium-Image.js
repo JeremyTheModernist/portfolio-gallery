@@ -4,7 +4,7 @@ import ItemImage from '../ItemImage/ItemImage.js';
 
 function MediumImage(props){
   return(
-    <div className="grid__item col-2">
+    <div className="grid__item col-3">
       <ItemImage id={props.id}/>
       <ItemInformation id={props.id}/>
     </div>
