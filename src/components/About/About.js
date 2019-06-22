@@ -6,15 +6,15 @@ class About extends React.Component{
   showAbout = (context) => {
     console.log('showing about!')
     return (
-      <div className="about about--visible" onClick={() => context.toggleAbout()}>
-        <svg className="about__close" width="20" height="20">
+      <div className="about about--visible">
+        <svg className="about__close" width="20" height="20" onClick={() => context.toggleAbout()}>
           <line x1="0" y1="0" x2="20" y2="20" stroke="black" stroke-width="2"/>
           <line x1="20" y1="0" x2="0" y2="20" stroke="black" stroke-width="2"/>
         </svg>
         <div className="aboutContent">
           <div className="aboutContent__intro">
-            <h2 className="aboutContent__title col-3">About Margie McInarnay</h2>
-            <div className="aboutContent__img col-3">
+            <h2 className="aboutContent__title">About Margie McInarnay</h2>
+            <div className="aboutContent__img">
               <img src="http://drp.mk/i/FVwkbTbF4j.jpg"></img>
             </div>
           </div>
@@ -25,13 +25,13 @@ class About extends React.Component{
               to capture the emotions it invokes.
           </div>
           <div className="aboutContent__description">
-            <p className="description__copy col-2">
+            <p className="description__copy">
               I grew up in the rural splendor of Bartlett's Ferry, Alabama. With the Chattahoochee River
               running right past my back door, my surroundings reeled me right in to an overwhelming
               appreciation of nature’s intricacies. So, I began drawing and painting at an early
               age trying to capture the detail in the beauty I saw all around me.
             </p>
-            <p className="description__copy col-2">
+            <p className="description__copy">
               I became more focused as an artist when my husband and
               I moved to Florida in 2010. With Florida’s tropical birds,
               flowers, and sunsets persuading me, I was once again wooed

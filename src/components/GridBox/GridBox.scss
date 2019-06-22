@@ -39,7 +39,7 @@ $grid__cols: 6;
     line-height: map-get($leading-ramp,m);
     &.quote__intro{
       color:$secondary-color;
-      margin-top:map-get($margin-ramp,xxxl);
+      margin-top:map-get($margin-ramp,xxxl)*1.5;
     }
     .quote__intro--title{
       color:$primary-color;

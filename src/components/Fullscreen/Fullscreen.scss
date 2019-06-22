@@ -11,7 +11,7 @@
   &--visible{
     visibility: visible;
     transition:.45s;
-    background-color: rgba(255,255,255,.95);
+    background-color: rgba(255,255,255,.9);
   }
   &--hidden{
     visibility: hidden;
@@ -20,14 +20,15 @@
   }
   &__close{
     position:fixed;
-    right:20px;
-    top:20px;
+    right:0px;
+    top:0px;
     cursor:pointer;
     transition:.25s;
     padding:20px;
     &:hover{
       transform:rotate(90deg);
       transition:.25s;
+      opacity:.5;
     }
   }
 }
@@ -38,7 +39,7 @@
   margin-top:5%;
   align-items: start;
   &__image{
-    margin-bottom:map-get($margin-ramp,md);
+    margin-bottom:map-get($margin-ramp,xxl);
     display:flex;
     justify-content: center;
   }
