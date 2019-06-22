@@ -10,7 +10,12 @@ function ItemImage(props){
               return props.id == item.id ?
                 <div className="item__image" key={item.id}
                   onClick={() => context.toggleFullscreen({src:item.content.src,title:item.content.title,description:item.content.description})}>
-                  <img src={item.content.src}/>
+                  <picture>
+                    <source media="(min-width:1024px)" srcset={`${item.content.breakpointImgs.large}`}/>
+                    <source media="(min-width:768px)" srcset={`${item.content.breakpointImgs.medium}`}/>
+                    <source media="(min-width:320px)" srcset={`${item.content.breakpointImgs.small}`}/>
+                    <img src={item.content.src}/>
+                  </picture>
                 </div>
               :
               null
