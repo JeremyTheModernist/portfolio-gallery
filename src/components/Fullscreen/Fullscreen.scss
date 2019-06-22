@@ -64,18 +64,18 @@
     @include css-reset;
     color:$secondary-color;
     font-size:map-get($type-ramp,sm);
-    // font-family: $notoBody;
-    margin-bottom:map-get($margin-ramp,xl);
+    margin-bottom:map-get($margin-ramp,sm);
     line-height:map-get($leading-ramp,m);
-    // @include breakpoint(large){
-    //   color:$secondary-color;
-    //   font-size:map-get($type-ramp,sm);
-    // }
+    @include breakpoint(large){
+      margin-bottom:map-get($margin-ramp,lg);
+    }
   }
   &__link{
     @include css-reset;
+    display:block;
     text-decoration:underline;
     color:$highlight-color;
-    font-size:map-get($type-ramp,sm)
+    font-size:map-get($type-ramp,sm);
+    margin-bottom:map-get($margin-ramp,lg);
   }
 }
