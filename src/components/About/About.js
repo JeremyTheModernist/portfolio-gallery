@@ -7,6 +7,10 @@ class About extends React.Component{
     console.log('showing about!')
     return (
       <div className="about about--visible" onClick={() => context.toggleAbout()}>
+        <svg className="about__close" width="20" height="20">
+          <line x1="0" y1="0" x2="20" y2="20" stroke="black" stroke-width="2"/>
+          <line x1="20" y1="0" x2="0" y2="20" stroke="black" stroke-width="2"/>
+        </svg>
         <div className="aboutContent">
           <div className="aboutContent__intro">
             <h2 className="aboutContent__title col-3">About Margie McInarnay</h2>

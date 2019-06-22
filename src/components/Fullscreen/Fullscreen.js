@@ -5,6 +5,10 @@ class Fullscreen extends React.Component{
   showFullscreen = (context) => {
     return (
       <div className="fullscreen fullscreen--visible" onClick={() => context.toggleFullscreen()}>
+        <svg className="fullscreen__close" width="20" height="20">
+          <line x1="0" y1="0" x2="20" y2="20" stroke="black" stroke-width="2"/>
+          <line x1="20" y1="0" x2="0" y2="20" stroke="black" stroke-width="2"/>
+        </svg>
         <div className="fullscreenContent">
           <div className="fullscreenContent__words col-1">
               <h2 className="fullscreenContent__title">{context.selected.title}</h2>

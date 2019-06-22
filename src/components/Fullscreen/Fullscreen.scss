@@ -18,6 +18,18 @@
     transition:.45s;
     background-color: rgba(0,0,0,0);
   }
+  &__close{
+    position:fixed;
+    right:20px;
+    top:20px;
+    cursor:pointer;
+    transition:.25s;
+    padding:20px;
+    &:hover{
+      transform:rotate(90deg);
+      transition:.25s;
+    }
+  }
 }
 .fullscreenContent{
   display:flex;
