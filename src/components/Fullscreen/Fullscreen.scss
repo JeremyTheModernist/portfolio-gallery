@@ -38,10 +38,19 @@
   margin:auto;
   margin-top:5%;
   align-items: start;
+  flex-flow:column wrap;
+  @include breakpoint(large){
+    flex-flow:row wrap;
+  };
   &__image{
     margin-bottom:map-get($margin-ramp,xxl);
-    display:flex;
-    justify-content: center;
+    @include breakpoint(large){
+      margin-left:auto;
+      margin-right:auto;
+    }
+    img{
+      max-width:96%;
+    }
   }
   &__words{
   }
