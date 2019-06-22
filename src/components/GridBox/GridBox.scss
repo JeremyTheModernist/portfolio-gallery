@@ -39,7 +39,6 @@ $grid__cols: 6;
     &.quote__intro{
       color:$secondary-color;
       margin-top:map-get($margin-ramp,xxxl);
-      
     }
     .quote__intro--title{
       font-family:$roboto;
@@ -61,8 +60,8 @@ $grid__cols: 6;
     display:flex;
     flex-flow:column wrap;
     @include breakpoint(medium){
-      margin-top:map-get($margin-ramp,lg);
-      margin-bottom:map-get($margin-ramp,lg);
+      margin-top:map-get($margin-ramp,xl);
+      margin-bottom:map-get($margin-ramp,xl);
     }
     &.grid__item--empty{
       display:none;

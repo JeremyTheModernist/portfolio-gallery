@@ -29,15 +29,15 @@ class AppState extends React.Component{
       {
         id:3,
         content: {
-          title:'Florals in the Wild',
-          subtitle: 'Watercolor Painting Original 16 x 20 Giclees available',
+          title:'Color Therapy',
+          subtitle: '2017 Merit Award. Watercolor Painting Original 16 x 20 Giclees available',
           src: 'http://drp.mk/i/0XSYw9W21w.jpg'
         }
       },
       {
         id:4,
         content: {
-          title:'Rotation of White',
+          title:'The Lure of Leaves',
           subtitle: 'Watercolor Painting Original 16 x 20 Giclees available',
           src: 'http://drp.mk/i/FVwkbTbF4j.jpg'
         }
