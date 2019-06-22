@@ -8,7 +8,8 @@ function ItemImage(props){
         (context) => {
           return context.information.map((item) => {
               return props.id == item.id ?
-                <div className="item__image" key={item.id} onClick={() => context.toggleFullscreen({src:item.content.src,title:item.content.title})}>
+                <div className="item__image" key={item.id}
+                  onClick={() => context.toggleFullscreen({src:item.content.src,title:item.content.title,description:item.content.description})}>
                   <img src={item.content.src}/>
                 </div>
               :

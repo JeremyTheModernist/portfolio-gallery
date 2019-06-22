@@ -31,18 +31,21 @@ $grid__cols: 6;
   .grid__quote{
     @include css-reset;
     max-width:100%;
-    font-size:map-get($type-ramp,lg);
+    font-size:map-get($type-ramp,md-mobile);
     color:$primary-color;
     font-family:$noto;
     margin-top:map-get($margin-ramp,xl);
     margin-bottom:map-get($margin-ramp,xl);
+    line-height: map-get($leading-ramp,m);
     &.quote__intro{
       color:$secondary-color;
       margin-top:map-get($margin-ramp,xxxl);
     }
     .quote__intro--title{
-      font-family:$roboto;
       color:$primary-color;
+    }
+    @include breakpoint(medium){
+      font-size:map-get($type-ramp,lg);
     }
     @include breakpoint(large){
       font-size:map-get($type-ramp,xl);

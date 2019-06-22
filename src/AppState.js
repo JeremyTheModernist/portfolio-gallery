@@ -7,7 +7,8 @@ class AppState extends React.Component{
     fullscreen:false,
     selected: {
       src: null,
-      title: null
+      title: null,
+      description:null
     },
     information: [
       {
@@ -15,6 +16,7 @@ class AppState extends React.Component{
         content: {
           title:'Hawainn Island Florals',
           subtitle: 'Watercolor Painting Original 16 x 20 Giclees available',
+          description: 'Watercolor Painting Original 16 x 20 Giclees available',
           src: 'http://drp.mk/i/1z7YGPxCQ6.jpg'
         }
       },
@@ -23,6 +25,7 @@ class AppState extends React.Component{
         content: {
           title:'Specefic Title',
           subtitle: 'Better Description',
+          description: '43rd Annual Montgomery Art Guild Museum Exhibition Montgomery, Alabama',
           src: 'http://drp.mk/i/FxDhkqCZ8C.jpg'
         }
       },
@@ -30,7 +33,8 @@ class AppState extends React.Component{
         id:3,
         content: {
           title:'Color Therapy',
-          subtitle: '2017 Merit Award. Watercolor Painting Original 16 x 20 Giclees available',
+          subtitle: 'Watercolor Painting Original 16 x 20 Giclees available',
+          description: 'Watercolor Painting Original 16 x 20 Giclees available',
           src: 'http://drp.mk/i/0XSYw9W21w.jpg'
         }
       },
@@ -39,6 +43,7 @@ class AppState extends React.Component{
         content: {
           title:'The Lure of Leaves',
           subtitle: 'Watercolor Painting Original 16 x 20 Giclees available',
+          description: 'ABLAZE 2016 Merit Award Brush With Success, Viera, Florida',
           src: 'http://drp.mk/i/FVwkbTbF4j.jpg'
         }
       },
@@ -47,6 +52,7 @@ class AppState extends React.Component{
         content: {
           title:'Flower in Bloom',
           subtitle: 'Watercolor Painting Original 16 x 20 Giclees available',
+          description: '43rd Annual Montgomery Art Guild Museum Exhibition Montgomery, Alabama',
           src: 'http://drp.mk/i/HDqKRZs4Gx.jpg'
         }
       },
@@ -55,6 +61,7 @@ class AppState extends React.Component{
         content: {
           title:'Vibrance in Red',
           subtitle: 'Watercolor Painting Original 16 x 20 Giclees available',
+          description: '43rd Annual Montgomery Art Guild, Museum Exhibition Montgomery, Alabama',
           src: 'http://drp.mk/i/HgtHYNgNKc.jpg'
         }
       }
@@ -67,7 +74,8 @@ class AppState extends React.Component{
             fullscreen:!state.fullscreen,
             selected: {
               src: payload.src,
-              title: payload.title
+              title: payload.title,
+              description:payload.description
             }
           }
         }
@@ -76,7 +84,8 @@ class AppState extends React.Component{
             fullscreen:!state.fullscreen,
             selected: {
               src: null,
-              title: null
+              title: null,
+              description:null
             }
           }
         }

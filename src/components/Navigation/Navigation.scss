@@ -12,6 +12,11 @@
     margin-right:4%;
     font-size: map-get($type-ramp,md-mobile);
     color: $secondary-color;
+    cursor:pointer;
+    transition:.35s;
+    &:hover{
+      color:$primary-color;
+    }
     // @include breakpoint(large){
     //   font-size: map-get($type-ramp,lg)
     // }

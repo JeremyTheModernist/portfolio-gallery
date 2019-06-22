@@ -11,7 +11,7 @@ function Navigation(){
           Contact
         </li>
         <li className="navigation__item">
-          Bio
+          About
         </li>
       </ul>
     </div>

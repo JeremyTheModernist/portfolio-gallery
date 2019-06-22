@@ -42,7 +42,7 @@
     @include css-reset;
     color:$secondary-color;
     font-size:map-get($type-ramp,sm);
-    font-family: $notoBody;
+    // font-family: $notoBody;
     margin-bottom:map-get($margin-ramp,xl);
     line-height:map-get($leading-ramp,m);
     // @include breakpoint(large){
