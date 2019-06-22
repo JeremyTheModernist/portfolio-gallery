@@ -24,7 +24,7 @@ class App extends React.Component{
           <GridBox>
             <XSmallImage id={1} empty={true}/>
             <Quote colNum={5} styleName="quote__intro">
-              <span className="quote__intro--title">Hello and Welcome</span><br/><br/>
+              <span className="quote__intro--title">Hello and Welcome,</span><br/><br/>
               Margie McInarnay is a painter living and working out of Alabama. Her work includes a range of
               subjects from detailed botany to rural architecture. Her pieces are often themed around tropical locations.
               All work is available for purchase.

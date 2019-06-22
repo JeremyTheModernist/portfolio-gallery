@@ -42,7 +42,6 @@ $grid__cols: 6;
       margin-top:map-get($margin-ramp,xxxl);
     }
     .quote__intro--title{
-      font-family:$roboto;
       color:$primary-color;
     }
     @include breakpoint(medium){
