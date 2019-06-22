@@ -30,6 +30,7 @@ class App extends React.Component{
               subjects from detailed botany to rural architecture, often themed around tropical locations.
               All work is available for purchase.
             </Quote>
+
             <SmallImage id={3}/>
             <XSmallImage id={1} empty={true}/>
             <MediumImage id={4}/>
