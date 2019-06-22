@@ -5,6 +5,7 @@ const {Provider, Consumer} = React.createContext();
 class AppState extends React.Component{
   state = {
     fullscreen:false,
+    about:false,
     selected: {
       src: null,
       title: null,
@@ -92,6 +93,14 @@ class AppState extends React.Component{
 
       })
       console.log('received payload',payload)
+    },
+    toggleAbout: () => {
+      this.setState((state) => {
+        return {
+          about: !state.about
+        }
+      })
+    console.log(this.state.about)
     }
   }
   render(){

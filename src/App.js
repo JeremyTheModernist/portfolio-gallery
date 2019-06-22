@@ -12,6 +12,7 @@ import XXLargeImage from './components/Image-XXL/XXL-Image.js';
 import Navigation from './components/Navigation/Navigation.js'
 import Quote from './components/Quote/Quote.js'
 import Fullscreen from './components/Fullscreen/Fullscreen.js'
+import About from './components/About/About.js'
 
 class App extends React.Component{
 
@@ -20,6 +21,7 @@ class App extends React.Component{
       <AppState>
         <div className="App">
           <Fullscreen/>
+          <About/>
           <Navigation/>
           <GridBox>
             <XSmallImage id={1} empty={true}/>
