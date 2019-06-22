@@ -21,27 +21,60 @@
   display:flex;
   max-width:1600px;
   margin:auto;
-  margin-top:5%;
-  align-items: start;
-  &__image{
-    margin-bottom:map-get($margin-ramp,md);
+  flex-flow: column nowrap;
+  &__intro{
     display:flex;
-    justify-content: center;
+    flex-flow:row wrap;
+    height:auto;
+    margin-top:4%;
   }
-  &__words{
+  &__img{
+    img{
+      max-width:100%;
+    }
+  }
+  &__quote{
+    font-size:map-get($type-ramp,md-mobile);
+    color:$primary-color;
+    font-family:$noto;
+    margin-right:4%;
+    margin-left:4%;
+    margin-top:map-get($margin-ramp,md);
+    margin-bottom:map-get($margin-ramp,md);
+    line-height: map-get($leading-ramp,m);
+    @include breakpoint(medium){
+      font-size:map-get($type-ramp,lg);
+    }
+    @include breakpoint(large){
+      font-size:map-get($type-ramp,xl);
+      max-width:80%;
+    }
   }
   &__title{
     @include css-reset;
     color:$primary-color;
-    font-size:map-get($type-ramp,lg);
-    margin-bottom:map-get($margin-ramp,md);
+    margin-left:4%;
+    font-size:map-get($type-ramp,md-mobile);
+    margin-bottom:map-get($margin-ramp,xxl);
+    @include breakpoint(medium){
+      font-size:map-get($type-ramp,lg);
+    }
   }
   &__description{
     @include css-reset;
+    display:flex;
+    flex-flow:row wrap;
+    margin:0% 4% 4% 0%;
     color:$secondary-color;
     font-size:map-get($type-ramp,sm);
     margin-bottom:map-get($margin-ramp,xl);
     line-height:map-get($leading-ramp,m);
+  }
+  .description__copy{
+    // @include breakpoint(large){
+    //   width:25%;
+    //   margin-right:
+    // }
   }
   &__link{
     @include css-reset;
