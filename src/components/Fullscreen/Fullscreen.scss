@@ -58,7 +58,7 @@
     @include css-reset;
     color:$primary-color;
     font-size:map-get($type-ramp,lg);
-    margin-bottom:map-get($margin-ramp,md);
+    margin-bottom:map-get($margin-ramp,sm);
   }
   &__description{
     @include css-reset;
@@ -74,7 +74,7 @@
   }
   &__link{
     @include css-reset;
-    text-decoration:none;
+    text-decoration:underline;
     color:$highlight-color;
     font-size:map-get($type-ramp,sm)
   }
