@@ -49,7 +49,7 @@ class AppState extends React.Component{
           src: 'https://drp.mk/i/0XSYw9W21w.jpg',
           breakpointImgs: {
             large: 'https://drp.mk/i/0XSYw9W21w.jpg',
-            medium: 'https://drp.mk/i/0XSYw9W21w.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_768/v1561307846/samples/sheep.jpg',
             small: 'https://drp.mk/i/0XSYw9W21w.jpg'
           }
         }
