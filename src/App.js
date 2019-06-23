@@ -13,7 +13,6 @@ import Navigation from './components/Navigation/Navigation.js'
 import Quote from './components/Quote/Quote.js'
 import Fullscreen from './components/Fullscreen/Fullscreen.js'
 import About from './components/About/About.js'
-import CloudinaryImg from './components/Cloudinary/CloudinaryImage.js'
 
 class App extends React.Component{
 
@@ -24,7 +23,6 @@ class App extends React.Component{
           <Fullscreen/>
           <About/>
           <Navigation/>
-
           <GridBox>
             <XSmallImage id={1} empty={true}/>
             <Quote colNum={5} styleName="quote__intro">
@@ -33,7 +31,6 @@ class App extends React.Component{
               subjects from detailed botany to rural architecture. Her pieces are often themed around tropical locations.
               All work is available for purchase.
             </Quote>
-            <CloudinaryImg/>
 
             <SmallImage id={3}/>
             <XSmallImage id={1} empty={true}/>

@@ -46,11 +46,11 @@ class AppState extends React.Component{
           title:'Color Therapy',
           subtitle: 'Watercolor Painting Original 16 x 20 Giclees available',
           description: 'Watercolor Painting Original 16 x 20 Giclees available',
-          src: 'https://drp.mk/i/0XSYw9W21w.jpg',
+          src: 'https://res.cloudinary.com/gestalt/image/upload/v1561322636/painters-portfolio/02_Courtyar-Poipu_r8tamg.jpg',
           breakpointImgs: {
-            large: 'https://drp.mk/i/0XSYw9W21w.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_768/v1561307846/samples/sheep.jpg',
-            small: 'https://drp.mk/i/0XSYw9W21w.jpg'
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_50/v1561322636/painters-portfolio/02_Courtyar-Poipu_r8tamg.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/q_70/w_700/v1561322636/painters-portfolio/02_Courtyar-Poipu_r8tamg.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/q_60/w_550/v1561322636/painters-portfolio/02_Courtyar-Poipu_r8tamg.jpg'
           }
         }
       },
