@@ -34,14 +34,14 @@ class App extends React.Component{
 
 
             <SmallImage id={7}/>
-            <XSmallImage id={1} empty={true}/>
-            <SmallImage id={8}/>
-            <XSmallImage id={1} empty={true}/>
+            <LargeImage id={8}/>
 
-            <XSmallImage id={1} empty={true}/>
-            <SmallImage id={4}/>
+
+            
+            <MediumImage id={4}/>
             <XSmallImage id={1} empty={true}/>
             <SmallImage id={3}/>
+
 
 
             <XSmallImage id={1} empty={true}/>
