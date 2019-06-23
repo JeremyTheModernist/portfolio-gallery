@@ -21,7 +21,8 @@ class AppState extends React.Component{
           src: 'http://drp.mk/i/1z7YGPxCQ6.jpg',
           breakpointImgs: {
             large: 'http://drp.mk/i/1z7YGPxCQ6.jpg',
-            medium: 'http://drp.mk/i/FxDhkqCZ8C.jpg'
+            medium: 'http://drp.mk/i/1z7YGPxCQ6.jpg',
+            small: 'http://drp.mk/i/1z7YGPxCQ6.jpg',
           }
         }
       },
@@ -48,7 +49,7 @@ class AppState extends React.Component{
           src: 'http://drp.mk/i/0XSYw9W21w.jpg',
           breakpointImgs: {
             large: 'http://drp.mk/i/0XSYw9W21w.jpg',
-            medium: 'http://drp.mk/i/FxDhkqCZ8C.jpg',
+            medium: 'http://drp.mk/i/0XSYw9W21w.jpg',
             small: 'http://drp.mk/i/0XSYw9W21w.jpg'
           }
         }
@@ -62,7 +63,7 @@ class AppState extends React.Component{
           src: 'http://drp.mk/i/FVwkbTbF4j.jpg',
           breakpointImgs: {
             large: 'http://drp.mk/i/FVwkbTbF4j.jpg',
-            medium: 'http://drp.mk/i/FxDhkqCZ8C.jpg',
+            medium: 'http://drp.mk/i/FVwkbTbF4j.jpg',
             small: 'http://drp.mk/i/FVwkbTbF4j.jpg'
           }
         }
@@ -76,7 +77,7 @@ class AppState extends React.Component{
           src: 'http://drp.mk/i/HDqKRZs4Gx.jpg',
           breakpointImgs: {
             large: 'http://drp.mk/i/HDqKRZs4Gx.jpg',
-            medium: 'http://drp.mk/i/FxDhkqCZ8C.jpg',
+            medium: 'http://drp.mk/i/HDqKRZs4Gx.jpg',
             small: 'http://drp.mk/i/FVwkbTbF4j.jpg'
           }
         }
@@ -90,7 +91,7 @@ class AppState extends React.Component{
           src: 'http://drp.mk/i/HgtHYNgNKc.jpg',
           breakpointImgs: {
             large: 'http://drp.mk/i/HgtHYNgNKc.jpg',
-            medium: 'http://drp.mk/i/FxDhkqCZ8C.jpg',
+            medium: 'http://drp.mk/i/HgtHYNgNKc.jpg',
             small: 'http://drp.mk/i/HgtHYNgNKc.jpg'
           }
         }
