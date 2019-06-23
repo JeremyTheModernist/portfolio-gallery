@@ -119,8 +119,64 @@ class AppState extends React.Component{
           src: 'https://res.cloudinary.com/gestalt/image/upload/v1561325649/painters-portfolio/Church-Northshore_ydvtzy.jpg',
           breakpointImgs: {
             large: 'https://res.cloudinary.com/gestalt/image/upload/q_50/v1561325649/painters-portfolio/Church-Northshore_ydvtzy.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_700/v1561325649/painters-portfolio/Church-Northshore_ydvtzy.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_500/v1561325649/painters-portfolio/Church-Northshore_ydvtzy.jpg',
+          }
+        }
+      },
+      {
+        id:9,
+        content: {
+          title:'Vibrance in Red',
+          subtitle: 'Watercolor Painting Original 16 x 20 Giclees available',
+          description: '43rd Annual Montgomery Art Guild, Museum Exhibition Montgomery, Alabama',
+          src: 'https://res.cloudinary.com/gestalt/image/upload/v1561329010/painters-portfolio/KeyWest-Palm_clt97q.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_30/v1561329010/painters-portfolio/KeyWest-Palm_clt97q.jpg',
             medium: 'https://res.cloudinary.com/gestalt/image/upload/v1561325649/painters-portfolio/Church-Northshore_ydvtzy.jpg',
             small: 'https://res.cloudinary.com/gestalt/image/upload/v1561325649/painters-portfolio/Church-Northshore_ydvtzy.jpg',
+          }
+        }
+      },
+      {
+        id:10,
+        content: {
+          title:'Vibrance in Red',
+          subtitle: 'Watercolor Painting Original 16 x 20 Giclees available',
+          description: '43rd Annual Montgomery Art Guild, Museum Exhibition Montgomery, Alabama',
+          src: 'https://res.cloudinary.com/gestalt/image/upload/v1561330382/painters-portfolio/Sidewalk-saunter_nh2g98.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_50/v1561330382/painters-portfolio/Sidewalk-saunter_nh2g98.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_400/v1561330382/painters-portfolio/Sidewalk-saunter_nh2g98.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_400/v1561330382/painters-portfolio/Sidewalk-saunter_nh2g98.jpg',
+          }
+        }
+      },
+      {
+        id:11,
+        content: {
+          title:'Vibrance in Red',
+          subtitle: 'Watercolor Painting Original 16 x 20 Giclees available',
+          description: '43rd Annual Montgomery Art Guild, Museum Exhibition Montgomery, Alabama',
+          src: 'https://res.cloudinary.com/gestalt/image/upload/v1561331046/painters-portfolio/Color-Therapy_cvsiz6.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_50/w_800/v1561331876/painters-portfolio/02_ColorTherapy_xf0exo.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/q_50/w_800/v1561331876/painters-portfolio/02_ColorTherapy_xf0exo.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/q_50/w_800/v1561331876/painters-portfolio/02_ColorTherapy_xf0exo.jpg',
+          }
+        }
+      },
+      {
+        id:12,
+        content: {
+          title:'Vibrance in Red',
+          subtitle: 'Watercolor Painting Original 16 x 20 Giclees available',
+          description: '43rd Annual Montgomery Art Guild, Museum Exhibition Montgomery, Alabama',
+          src: 'https://res.cloudinary.com/gestalt/image/upload/v1561331055/painters-portfolio/Paved-Paradise_jd0rze.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/v1561331055/painters-portfolio/Paved-Paradise_jd0rze.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/v1561331055/painters-portfolio/Paved-Paradise_jd0rze.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/v1561331055/painters-portfolio/Paved-Paradise_jd0rze.jpg',
           }
         }
       }

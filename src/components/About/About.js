@@ -15,7 +15,7 @@ class About extends React.Component{
           <div className="aboutContent__intro">
             <h2 className="aboutContent__title">About Margie McInarnay</h2>
             <div className="aboutContent__img">
-              <img src="http://drp.mk/i/FVwkbTbF4j.jpg"></img>
+              <img src="https://res.cloudinary.com/gestalt/image/upload/v1561331055/painters-portfolio/Paved-Paradise_jd0rze.jpg"></img>
             </div>
           </div>
           <div className="aboutContent__quote col-4">

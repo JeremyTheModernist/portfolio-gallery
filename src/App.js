@@ -37,20 +37,19 @@ class App extends React.Component{
             <LargeImage id={8}/>
 
 
-            
-            <MediumImage id={4}/>
+            <SmallImage id={10}/>
             <XSmallImage id={1} empty={true}/>
-            <SmallImage id={3}/>
+            <MediumImage id={3}/>
 
 
 
             <XSmallImage id={1} empty={true}/>
-            <LargeImage id={4}/>
+            <LargeImage id={9}/>
             <XSmallImage id={1} empty={true}/>
 
-            <MediumImage id={5}/>
-            <XSmallImage id={1} empty={true}/>
-            <SmallImage id={6}/>
+            <MediumImage id={12}/>
+    
+            <MediumImage id={11}/>
 
 
             <XSmallImage id={1} empty={true}/>
@@ -62,7 +61,8 @@ class App extends React.Component{
 
             <MediumImage id={3}/>
             <XSmallImage id={1} empty={true}/>
-            <SmallImage id={4}/>
+            <SmallImage id={7}/>
+
           </GridBox>
         </div>
       </AppState>
