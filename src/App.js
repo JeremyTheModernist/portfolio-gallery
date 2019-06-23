@@ -32,14 +32,17 @@ class App extends React.Component{
               All work is available for purchase.
             </Quote>
 
-            <SmallImage id={3}/>
+
+            <SmallImage id={7}/>
             <XSmallImage id={1} empty={true}/>
-            <MediumImage id={4}/>
+            <SmallImage id={8}/>
+            <XSmallImage id={1} empty={true}/>
 
             <XSmallImage id={1} empty={true}/>
             <SmallImage id={4}/>
             <XSmallImage id={1} empty={true}/>
             <SmallImage id={3}/>
+
 
             <XSmallImage id={1} empty={true}/>
             <LargeImage id={4}/>

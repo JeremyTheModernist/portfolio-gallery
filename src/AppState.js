@@ -95,6 +95,34 @@ class AppState extends React.Component{
             small: 'https://drp.mk/i/HgtHYNgNKc.jpg'
           }
         }
+      },
+      {
+        id:7,
+        content: {
+          title:'Vibrance in Red',
+          subtitle: 'Watercolor Painting Original 16 x 20 Giclees available',
+          description: '43rd Annual Montgomery Art Guild, Museum Exhibition Montgomery, Alabama',
+          src: 'https://res.cloudinary.com/gestalt/image/upload/v1561324525/painters-portfolio/BlueGold-Macaw_dm8cce.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_50/v1561324525/painters-portfolio/BlueGold-Macaw_dm8cce.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/q_70/w_500/v1561324525/painters-portfolio/BlueGold-Macaw_dm8cce.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/q_60/w_500/v1561324525/painters-portfolio/BlueGold-Macaw_dm8cce.jpg',
+          }
+        }
+      },
+      {
+        id:8,
+        content: {
+          title:'Vibrance in Red',
+          subtitle: 'Watercolor Painting Original 16 x 20 Giclees available',
+          description: '43rd Annual Montgomery Art Guild, Museum Exhibition Montgomery, Alabama',
+          src: 'https://res.cloudinary.com/gestalt/image/upload/v1561325649/painters-portfolio/Church-Northshore_ydvtzy.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_50/v1561325649/painters-portfolio/Church-Northshore_ydvtzy.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/v1561325649/painters-portfolio/Church-Northshore_ydvtzy.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/v1561325649/painters-portfolio/Church-Northshore_ydvtzy.jpg',
+          }
+        }
       }
 
     ],
