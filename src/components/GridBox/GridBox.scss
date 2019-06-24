@@ -23,7 +23,7 @@ $grid__cols: 6;
 .grid{
   display:flex;
   flex-flow: row wrap;
-  align-items: center;
+  align-items: flex-start;
   max-width:1600px;
   margin:auto;
   position:relative;
