@@ -38,9 +38,10 @@ class App extends React.Component{
             <LargeImage id={8}/>
 
 
-            <SmallImage id={10}/>
-            <XSmallImage id={1} empty={true}/>
+
             <MediumImage id={3}/>
+            <XSmallImage id={1} empty={true}/>
+            <SmallImage id={10}/>
 
 
 
