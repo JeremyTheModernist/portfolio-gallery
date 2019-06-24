@@ -174,9 +174,9 @@ class AppState extends React.Component{
           description: '43rd Annual Montgomery Art Guild, Museum Exhibition Montgomery, Alabama',
           src: 'https://res.cloudinary.com/gestalt/image/upload/v1561331055/painters-portfolio/Paved-Paradise_jd0rze.jpg',
           breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/v1561331055/painters-portfolio/Paved-Paradise_jd0rze.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/v1561331055/painters-portfolio/Paved-Paradise_jd0rze.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/v1561331055/painters-portfolio/Paved-Paradise_jd0rze.jpg',
+            large: 'https://res.cloudinary.com/gestalt/image/upload/q_50/w_800/v1561334307/painters-portfolio/Pave-Paradise_02_qmw3wc.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/q_50/w_800/v1561334307/painters-portfolio/Pave-Paradise_02_qmw3wc.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/q_50/w_800/v1561334307/painters-portfolio/Pave-Paradise_02_qmw3wc.jpg',
           }
         }
       }

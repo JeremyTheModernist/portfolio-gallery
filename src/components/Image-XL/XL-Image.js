@@ -11,4 +11,4 @@ function XLargeImage(props){
   )
 }
 
-export default XXLargeImage;
+export default XLargeImage;

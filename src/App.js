@@ -7,6 +7,7 @@ import XSmallImage from './components/Image-XS/XSmall-Image.js';
 import SmallImage from './components/Image-Small/Small-Image.js';
 import MediumImage from './components/Image-Medium/Medium-Image.js'
 import LargeImage from './components/Image-Large/Large-Image.js'
+import XLargeImage from './components/Image-XL/XL-Image.js'
 import XXLargeImage from './components/Image-XXL/XXL-Image.js';
 
 import Navigation from './components/Navigation/Navigation.js'
@@ -48,7 +49,6 @@ class App extends React.Component{
             <XSmallImage id={1} empty={true}/>
 
             <MediumImage id={12}/>
-    
             <MediumImage id={11}/>
 
 
