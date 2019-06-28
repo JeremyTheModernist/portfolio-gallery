@@ -12,33 +12,33 @@ class About extends React.Component{
           <line x1="20" y1="0" x2="0" y2="20" stroke="black" stroke-width="2"/>
         </svg>
         <div className="aboutContent">
-          <div className="aboutContent__intro">
+          <div className="aboutContent__intro col-3">
             <h2 className="aboutContent__title">About Margie McInarnay</h2>
-            <div className="aboutContent__img">
-              <img src="https://res.cloudinary.com/gestalt/image/upload/v1561331055/painters-portfolio/Paved-Paradise_jd0rze.jpg"></img>
+            <div className="aboutContent__quote">
+                There is something extraordinary about stepping
+                into a new place filled with its own unique beauty
+                of flora and fauna that inspires and motivates me
+                to capture the emotions it invokes.
+            </div>
+            <div className="aboutContent__description">
+              <p className="description__copy">
+                I grew up in the rural splendor of Bartlett's Ferry, Alabama. With the Chattahoochee River
+                running right past my back door, my surroundings reeled me right in to an overwhelming
+                appreciation of nature’s intricacies. So, I began drawing and painting at an early
+                age trying to capture the detail in the beauty I saw all around me.
+              </p>
+              <p className="description__copy">
+                I became more focused as an artist when my husband and
+                I moved to Florida in 2010. With Florida’s tropical birds,
+                flowers, and sunsets persuading me, I was once again wooed
+                by nature to draw and to paint. We recently returned to
+                Alabama and I am excited to be back in the surroundings
+                which inspired me as an artist in my youth.
+              </p>
             </div>
           </div>
-          <div className="aboutContent__quote col-4">
-              There is something extraordinary about stepping
-              into a new place filled with its own unique beauty
-              of flora and fauna that inspires and motivates me
-              to capture the emotions it invokes.
-          </div>
-          <div className="aboutContent__description">
-            <p className="description__copy">
-              I grew up in the rural splendor of Bartlett's Ferry, Alabama. With the Chattahoochee River
-              running right past my back door, my surroundings reeled me right in to an overwhelming
-              appreciation of nature’s intricacies. So, I began drawing and painting at an early
-              age trying to capture the detail in the beauty I saw all around me.
-            </p>
-            <p className="description__copy">
-              I became more focused as an artist when my husband and
-              I moved to Florida in 2010. With Florida’s tropical birds,
-              flowers, and sunsets persuading me, I was once again wooed
-              by nature to draw and to paint. We recently returned to
-              Alabama and I am excited to be back in the surroundings
-              which inspired me as an artist in my youth.
-            </p>
+          <div className="aboutContent__img col-3">
+            <img src="https://res.cloudinary.com/gestalt/image/upload/v1561331055/painters-portfolio/Paved-Paradise_jd0rze.jpg"></img>
           </div>
         </div>
       </div>
