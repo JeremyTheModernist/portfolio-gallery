@@ -34,23 +34,23 @@ class App extends React.Component{
             </Quote>
 
 
-            <SmallImage id={7}/>
-            <LargeImage id={8}/>
+            <SmallImage id={1}/>
+            <LargeImage id={3}/>
 
 
 
-            <MediumImage id={3}/>
+            <MediumImage id={6}/>
             <XSmallImage id={1} empty={true}/>
-            <SmallImage id={10}/>
+            <SmallImage id={5}/>
 
 
 
             <XSmallImage id={1} empty={true}/>
-            <LargeImage id={9}/>
+            <LargeImage id={7}/>
             <XSmallImage id={1} empty={true}/>
 
-            <MediumImage id={12}/>
-            <MediumImage id={11}/>
+            <MediumImage id={8}/>
+            <MediumImage id={9}/>
 
 
             <XSmallImage id={1} empty={true}/>
@@ -60,9 +60,35 @@ class App extends React.Component{
               What texture is it? How do all of these attributes come together?
             </Quote>
 
-            <MediumImage id={3}/>
+            <MediumImage id={12}/>
             <XSmallImage id={1} empty={true}/>
-            <SmallImage id={7}/>
+            <SmallImage id={13}/>
+
+            <SmallImage id={14}/>
+            <XSmallImage id={1} empty={true}/>
+            <MediumImage id={15}/>
+
+            <XSmallImage id={1} empty={true}/>
+            <LargeImage id={17}/>
+            <XSmallImage id={1} empty={true}/>
+
+            <XSmallImage id={1} empty={true}/>
+            <LargeImage id={16}/>
+            <XSmallImage id={1} empty={true}/>
+
+            <MediumImage id={11}/>
+            <MediumImage id={18}/>
+
+            <XSmallImage id={1} empty={true}/>
+            <Quote colNum={5}>
+            There is something extraordinary about stepping into a new place
+            filled with its own unique beauty of flora and fauna that inspires
+            and motivates me to capture the emotions it invokes.
+            </Quote>
+
+            <MediumImage id={19}/>
+            <XSmallImage id={1} empty={true}/>
+            <SmallImage id={20}/>
 
           </GridBox>
         </div>
