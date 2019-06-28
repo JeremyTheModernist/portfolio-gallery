@@ -33,25 +33,30 @@
 .aboutContent{
   display:flex;
   max-width:1600px;
+  padding-top:4%;
   margin:auto;
   flex-flow: row wrap;
   &__intro{
     // display:flex;
     // flex-flow:row wrap;
+    width:92%;
     height:auto;
-    margin-top:5%;
+    margin:0 4%;
     order:2;
     @include breakpoint(large){
-      order:1
+      order:1;
+      width:60%;
     }
   }
   &__img{
     order:1;
-    width:100%;
-    margin:0 4%;
+    width:92%;
+    margin:8% 4% 4%;
+    margin-left:auto;
     @include breakpoint(large){
-      width:42%;
+      width:28%;
       order:2;
+      margin-top:4%;
     }
     img{
       max-width:100%;
@@ -62,8 +67,9 @@
     width:100%;
     color:$primary-color;
     font-size:map-get($type-ramp,md-mobile);
-    margin-bottom:map-get($margin-ramp,xl);
+    margin:4% 0;
     @include breakpoint(medium){
+      margin-bottom:map-get($margin-ramp,xl);
       font-size:map-get($type-ramp,lg);
     }
     // @include breakpoint(large){
@@ -76,13 +82,13 @@
     font-family:$noto;
     // margin-right:4%;
     // margin-left:4%;
-    margin-top:map-get($margin-ramp,lg);
     margin-bottom:map-get($margin-ramp,md);
     line-height: map-get($leading-ramp,m);
     @include breakpoint(medium){
       font-size:map-get($type-ramp,lg);
     }
     @include breakpoint(large){
+      margin-top:map-get($margin-ramp,xxxl)*2.5;
       font-size:map-get($type-ramp,xl);
       // max-width:80%;
     }
@@ -91,10 +97,9 @@
     @include css-reset;
     display:flex;
     flex-flow:row wrap;
-    margin:0% 0% 4% 0%;
     color:$secondary-color;
     font-size:map-get($type-ramp,md);
-    margin-bottom:map-get($margin-ramp,xl)*2;
+    margin-bottom:map-get($margin-ramp,lg);
     line-height:map-get($leading-ramp,m);
   }
   .description__copy{

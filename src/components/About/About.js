@@ -12,7 +12,7 @@ class About extends React.Component{
           <line x1="20" y1="0" x2="0" y2="20" stroke="black" stroke-width="2"/>
         </svg>
         <div className="aboutContent">
-          <div className="aboutContent__intro col-3">
+          <div className="aboutContent__intro">
             <h2 className="aboutContent__title">About Margie McInarnay</h2>
             <div className="aboutContent__quote">
                 There is something extraordinary about stepping
@@ -37,8 +37,8 @@ class About extends React.Component{
               </p>
             </div>
           </div>
-          <div className="aboutContent__img col-3">
-            <img src="https://res.cloudinary.com/gestalt/image/upload/v1561331055/painters-portfolio/Paved-Paradise_jd0rze.jpg"></img>
+          <div className="aboutContent__img">
+            <img src="https://res.cloudinary.com/gestalt/image/upload/v1561741262/painters-folio/Vertical/ProfileImage_fxk2bz.jpg"></img>
           </div>
         </div>
       </div>
