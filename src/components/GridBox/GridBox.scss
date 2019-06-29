@@ -35,7 +35,7 @@ $grid__cols: 6;
     color:$primary-color;
     font-family:$noto;
     margin-top:map-get($margin-ramp,xl);
-    margin-bottom:map-get($margin-ramp,xl);
+    margin-bottom:map-get($margin-ramp,sm);
     line-height: map-get($leading-ramp,m);
     &.quote__intro{
       color:$secondary-color;
@@ -46,6 +46,7 @@ $grid__cols: 6;
     }
     @include breakpoint(medium){
       font-size:map-get($type-ramp,lg);
+      margin-bottom:map-get($margin-ramp,xl);
     }
     @include breakpoint(large){
       font-size:map-get($type-ramp,xl);
