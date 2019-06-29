@@ -15,7 +15,7 @@ class AppState extends React.Component{
       {
         id:1,
         content: {
-          title:'Hawainn Island Florals',
+          title:'Blue and Gold Macaw',
           subtitle: 'Watercolor Painting Original 16 x 20 Giclees available',
           description: 'Watercolor Painting Original 16 x 20 Giclees available',
           src: 'https://res.cloudinary.com/gestalt/image/upload/v1561668776/painters-folio/Vertical/Colonel_-_Blue_and_Gold_Macaw_Brevard_Zoo_tptwuv.jpg',
@@ -30,8 +30,8 @@ class AppState extends React.Component{
         id:2,
         content: {
           title:'Specefic Title',
-          subtitle: 'Better Description',
-          description: '43rd Annual Montgomery Art Guild Museum Exhibition Montgomery, Alabama',
+          subtitle: 'Watercolor Painting Original 16 x 20 Giclees available',
+          description: 'Watercolor Painting Original 16 x 20 Giclees available',
           src: 'https://res.cloudinary.com/gestalt/image/upload/v1561668770/painters-folio/Horizontal/Ancient_Corinth_bwgr4u.jpg',
           breakpointImgs: {
             large: 'https://res.cloudinary.com/gestalt/image/upload/v1561668770/painters-folio/Horizontal/Ancient_Corinth_bwgr4u.jpg',
@@ -43,7 +43,7 @@ class AppState extends React.Component{
       {
         id:3,
         content: {
-          title:'Color Therapy',
+          title:'Church on the Northshore II',
           subtitle: 'Watercolor Painting Original 16 x 20 Giclees available',
           description: 'Watercolor Painting Original 16 x 20 Giclees available',
           src: 'https://res.cloudinary.com/gestalt/image/upload/v1561668763/painters-folio/Horizontal/Church_on_the_North_Shore_II_dislat.jpg',
@@ -71,9 +71,9 @@ class AppState extends React.Component{
       {
         id:5,
         content: {
-          title:'Flower in Bloom',
+          title:'Sidewalk Saunter',
           subtitle: 'Watercolor Painting Original 16 x 20 Giclees available',
-          description: '43rd Annual Montgomery Art Guild Museum Exhibition Montgomery, Alabama',
+          description: 'Watercolor Painting Original 16 x 20 Giclees available',
           src: 'https://res.cloudinary.com/gestalt/image/upload/v1561668764/painters-folio/Horizontal/Sidewalk_Saunter_wfda9t.jpg',
           breakpointImgs: {
             large: 'https://res.cloudinary.com/gestalt/image/upload/v1561668764/painters-folio/Horizontal/Sidewalk_Saunter_wfda9t.jpg',
@@ -85,9 +85,9 @@ class AppState extends React.Component{
       {
         id:6,
         content: {
-          title:'Vibrance in Red',
-          subtitle: 'Watercolor Painting Original 16 x 20 Giclees available',
-          description: '43rd Annual Montgomery Art Guild, Museum Exhibition Montgomery, Alabama',
+          title:'Paved Paradise',
+          subtitle: 'Watercolor Painting Original 20 x 16 Giclees available',
+          description: 'Watercolor Painting Original 20 x 16 Giclees available',
           src: 'https://res.cloudinary.com/gestalt/image/upload/v1561668778/painters-folio/Horizontal/Paved_Paradise_ljz4ou.jpg',
           breakpointImgs: {
             large: 'https://res.cloudinary.com/gestalt/image/upload/v1561668778/painters-folio/Horizontal/Paved_Paradise_ljz4ou.jpg',
@@ -99,9 +99,9 @@ class AppState extends React.Component{
       {
         id:7,
         content: {
-          title:'Vibrance in Red',
-          subtitle: 'Watercolor Painting Original 16 x 20 Giclees available',
-          description: '43rd Annual Montgomery Art Guild, Museum Exhibition Montgomery, Alabama',
+          title:'Key West Christmas Palm',
+          subtitle: 'Watercolor Painting Original 28 x 22 Giclees available',
+          description: 'Watercolor Painting Original 28 x 22 Giclees available',
           src: 'https://res.cloudinary.com/gestalt/image/upload/v1561668765/painters-folio/Horizontal/Key_West_Christmas_Palm_gwvddk.jpg',
           breakpointImgs: {
             large: 'https://res.cloudinary.com/gestalt/image/upload/v1561668765/painters-folio/Horizontal/Key_West_Christmas_Palm_gwvddk.jpg',
@@ -113,9 +113,9 @@ class AppState extends React.Component{
       {
         id:8,
         content: {
-          title:'Vibrance in Red',
-          subtitle: 'Watercolor Painting Original 16 x 20 Giclees available',
-          description: '43rd Annual Montgomery Art Guild, Museum Exhibition Montgomery, Alabama',
+          title:'Ancient Corinth',
+          subtitle: 'Watercolor Painting Original 20 x 16 Giclees available',
+          description: 'Watercolor Painting Original 20 x 16 Giclees available',
           src: 'https://res.cloudinary.com/gestalt/image/upload/v1561668770/painters-folio/Horizontal/Ancient_Corinth_bwgr4u.jpg',
           breakpointImgs: {
             large: 'https://res.cloudinary.com/gestalt/image/upload/v1561668770/painters-folio/Horizontal/Ancient_Corinth_bwgr4u.jpg',
@@ -127,9 +127,9 @@ class AppState extends React.Component{
       {
         id:9,
         content: {
-          title:'Vibrance in Red',
-          subtitle: 'Watercolor Painting Original 16 x 20 Giclees available',
-          description: '43rd Annual Montgomery Art Guild, Museum Exhibition Montgomery, Alabama',
+          title:'Right-Side Up',
+          subtitle: 'Watercolor Painting Original 20 x 16 Giclees available',
+          description: 'Watercolor Painting Original 20 x 16 Giclees available',
           src: 'https://res.cloudinary.com/gestalt/image/upload/v1561668773/painters-folio/Horizontal/Right-side_Up_bxgraz.jpg',
           breakpointImgs: {
             large: 'https://res.cloudinary.com/gestalt/image/upload/v1561668773/painters-folio/Horizontal/Right-side_Up_bxgraz.jpg',
@@ -141,9 +141,9 @@ class AppState extends React.Component{
       {
         id:10,
         content: {
-          title:'Vibrance in Red',
+          title:'Sidewalk Saunter',
           subtitle: 'Watercolor Painting Original 16 x 20 Giclees available',
-          description: '43rd Annual Montgomery Art Guild, Museum Exhibition Montgomery, Alabama',
+          description: 'Watercolor Painting Original 16 x 20 Giclees available',
           src: 'https://res.cloudinary.com/gestalt/image/upload/v1561330382/painters-portfolio/Sidewalk-saunter_nh2g98.jpg',
           breakpointImgs: {
             large: 'https://res.cloudinary.com/gestalt/image/upload/q_50/v1561330382/painters-portfolio/Sidewalk-saunter_nh2g98.jpg',
@@ -155,9 +155,9 @@ class AppState extends React.Component{
       {
         id:11,
         content: {
-          title:'Vibrance in Red',
-          subtitle: 'Watercolor Painting Original 16 x 20 Giclees available',
-          description: '43rd Annual Montgomery Art Guild, Museum Exhibition Montgomery, Alabama',
+          title:'Library of Celsus, Ephesus',
+          subtitle: 'Watercolor Painting Original 20 x 16 Giclees available',
+          description: 'Watercolor Painting Original 20 x 16 Giclees available',
           src: 'https://res.cloudinary.com/gestalt/image/upload/v1561668777/painters-folio/Horizontal/Library_of_Celsus_in_Ephesus_l5mjy0.jpg',
           breakpointImgs: {
             large: 'https://res.cloudinary.com/gestalt/image/upload/v1561668777/painters-folio/Horizontal/Library_of_Celsus_in_Ephesus_l5mjy0.jpg',
@@ -169,9 +169,9 @@ class AppState extends React.Component{
       {
         id:12,
         content: {
-          title:'Vibrance in Red',
-          subtitle: 'Watercolor Painting Original 16 x 20 Giclees available',
-          description: '43rd Annual Montgomery Art Guild, Museum Exhibition Montgomery, Alabama',
+          title:'Courtyar in Poipu',
+          subtitle: '2013 Merit Award Brush With Success, Viera, Florida',
+          description: 'Watercolor Painting Original 16 X 20 Giclees available',
           src: 'https://res.cloudinary.com/gestalt/image/upload/v1561668783/painters-folio/Vertical/Courtyard_in_Poipu_h0xxzo.jpg',
           breakpointImgs: {
             large: 'https://res.cloudinary.com/gestalt/image/upload/v1561668783/painters-folio/Vertical/Courtyard_in_Poipu_h0xxzo.jpg',
@@ -183,9 +183,9 @@ class AppState extends React.Component{
       {
         id:13,
         content: {
-          title:'Vibrance in Red',
+          title:'Cabana Canopy',
           subtitle: 'Watercolor Painting Original 16 x 20 Giclees available',
-          description: '43rd Annual Montgomery Art Guild, Museum Exhibition Montgomery, Alabama',
+          description: 'Watercolor Painting Original 16 x 20 Giclees available',
           src: 'https://res.cloudinary.com/gestalt/image/upload/v1561668785/painters-folio/Vertical/Cabana_Canopy_ezfyuh.jpg',
           breakpointImgs: {
             large: 'https://res.cloudinary.com/gestalt/image/upload/v1561668785/painters-folio/Vertical/Cabana_Canopy_ezfyuh.jpg',
@@ -197,9 +197,9 @@ class AppState extends React.Component{
       {
         id:14,
         content: {
-          title:'Vibrance in Red',
+          title:'Pineapple on the Banana River',
           subtitle: 'Watercolor Painting Original 16 x 20 Giclees available',
-          description: '43rd Annual Montgomery Art Guild, Museum Exhibition Montgomery, Alabama',
+          description: 'Watercolor Painting Original 16 x 20 Giclees available',
           src: 'https://res.cloudinary.com/gestalt/image/upload/v1561668781/painters-folio/Vertical/Pineapple_on_the_Banana_River_g8tglx.jpg',
           breakpointImgs: {
             large: 'https://res.cloudinary.com/gestalt/image/upload/v1561668781/painters-folio/Vertical/Pineapple_on_the_Banana_River_g8tglx.jpg',
@@ -211,9 +211,9 @@ class AppState extends React.Component{
       {
         id:15,
         content: {
-          title:'Vibrance in Red',
-          subtitle: 'Watercolor Painting Original 16 x 20 Giclees available',
-          description: '43rd Annual Montgomery Art Guild, Museum Exhibition Montgomery, Alabama',
+          title:'Plumes in Bloom',
+          subtitle: 'Roseate Spoonbill, 2019 Montgomery City Hall Exhibition Montgomery, Alabama',
+          description: 'Watercolor Painting Original 16 X 20 Giclees available',
           src: 'https://res.cloudinary.com/gestalt/image/upload/v1561668785/painters-folio/Vertical/Plumes_in_Bloom_vdasfk.jpg',
           breakpointImgs: {
             large: 'https://res.cloudinary.com/gestalt/image/upload/v1561668785/painters-folio/Vertical/Plumes_in_Bloom_vdasfk.jpg',
@@ -225,9 +225,9 @@ class AppState extends React.Component{
       {
         id:16,
         content: {
-          title:'Vibrance in Red',
-          subtitle: 'Watercolor Painting Original 16 x 20 Giclees available',
-          description: '43rd Annual Montgomery Art Guild, Museum Exhibition Montgomery, Alabama',
+          title:`Hoo's Hideout`,
+          subtitle: '2019 Montgomery City Hall Exhibition, Montgomery, Alabama',
+          description: 'Acrylic Painting Original 20 x 16 Giclees available',
           src: 'https://res.cloudinary.com/gestalt/image/upload/v1561668769/painters-folio/Horizontal/Hoos_Hideout_ztwc19.jpg',
           breakpointImgs: {
             large: 'https://res.cloudinary.com/gestalt/image/upload/v1561668769/painters-folio/Horizontal/Hoos_Hideout_ztwc19.jpg',
@@ -239,9 +239,9 @@ class AppState extends React.Component{
       {
         id:17,
         content: {
-          title:'Vibrance in Red',
-          subtitle: 'Watercolor Painting Original 16 x 20 Giclees available',
-          description: '43rd Annual Montgomery Art Guild, Museum Exhibition Montgomery, Alabama',
+          title:'The Lure of Leaves',
+          subtitle: '2014 Merit Award Brush With Success, Viera, Florida 2016 Merit Award 100% Florida Fifth Avenue Art Gallery, Melbourne, Florida',
+          description: 'Watercolor Painting Original 20 x 16 Giclees available',
           src: 'https://res.cloudinary.com/gestalt/image/upload/v1561668771/painters-folio/Horizontal/The_Lure_of_Leaves_-_ZAPP_huw1j4.jpg',
           breakpointImgs: {
             large: 'https://res.cloudinary.com/gestalt/image/upload/v1561668771/painters-folio/Horizontal/The_Lure_of_Leaves_-_ZAPP_huw1j4.jpg',
@@ -253,9 +253,9 @@ class AppState extends React.Component{
       {
         id:18,
         content: {
-          title:'Vibrance in Red',
-          subtitle: 'Watercolor Painting Original 16 x 20 Giclees available',
-          description: '43rd Annual Montgomery Art Guild, Museum Exhibition Montgomery, Alabama',
+          title:'Color Therapy',
+          subtitle: '2017 Merit Award Brush With Success, Viera, Florida',
+          description: 'Watercolor Painting Original 20 X 16 Giclees available',
           src: 'https://res.cloudinary.com/gestalt/image/upload/v1561668773/painters-folio/Horizontal/Color_Therapy_b0lps2.jpg',
           breakpointImgs: {
             large: 'https://res.cloudinary.com/gestalt/image/upload/v1561668773/painters-folio/Horizontal/Color_Therapy_b0lps2.jpg',
@@ -267,9 +267,9 @@ class AppState extends React.Component{
       {
         id:19,
         content: {
-          title:'Vibrance in Red',
-          subtitle: 'Watercolor Painting Original 16 x 20 Giclees available',
-          description: '43rd Annual Montgomery Art Guild, Museum Exhibition Montgomery, Alabama',
+          title:'Ablaze',
+          subtitle: '2016 Merit Award Brush With Success, Viera, Florida',
+          description: 'Acrylic Painting Original 16 X 20 Giclees available',
           src: 'https://res.cloudinary.com/gestalt/image/upload/v1561668780/painters-folio/Vertical/Ablaze_rgzykh.jpg',
           breakpointImgs: {
             large: 'https://res.cloudinary.com/gestalt/image/upload/v1561668780/painters-folio/Vertical/Ablaze_rgzykh.jpg',
@@ -281,9 +281,9 @@ class AppState extends React.Component{
       {
         id:20,
         content: {
-          title:'Vibrance in Red',
-          subtitle: 'Watercolor Painting Original 16 x 20 Giclees available',
-          description: '43rd Annual Montgomery Art Guild, Museum Exhibition Montgomery, Alabama',
+          title:'Naturometry',
+          subtitle: '2019 43rd Annual Montgomery Art Guild Museum Exhibition Montgomery, Alabama',
+          description: 'Watercolor Painting Original 16 x 20 Giclees available',
           src: 'https://res.cloudinary.com/gestalt/image/upload/v1561668782/painters-folio/Vertical/Naturometry_hm7k1i.jpg',
           breakpointImgs: {
             large: 'https://res.cloudinary.com/gestalt/image/upload/v1561668782/painters-folio/Vertical/Naturometry_hm7k1i.jpg',
