@@ -11,6 +11,7 @@ import XLargeImage from './components/Image-XL/XL-Image.js'
 import XXLargeImage from './components/Image-XXL/XXL-Image.js';
 
 import Navigation from './components/Navigation/Navigation.js'
+import Footer from './components/Footer/Footer.js'
 import Quote from './components/Quote/Quote.js'
 import Fullscreen from './components/Fullscreen/Fullscreen.js'
 import About from './components/About/About.js'
@@ -91,6 +92,7 @@ class App extends React.Component{
             <SmallImage id={20}/>
 
           </GridBox>
+          <Footer/>
         </div>
       </AppState>
 
