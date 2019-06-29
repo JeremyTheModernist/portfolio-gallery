@@ -8,6 +8,7 @@
   left:0;
   top:0;
   overflow:scroll;
+  -webkit-overflow-scrolling: touch;
   &--visible{
     visibility: visible;
     transition:.45s;
