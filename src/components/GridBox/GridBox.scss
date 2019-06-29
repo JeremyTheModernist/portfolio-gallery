@@ -35,7 +35,7 @@ $grid__cols: 6;
     color:$primary-color;
     font-family:$noto;
     margin-top:map-get($margin-ramp,xl);
-    margin-bottom:map-get($margin-ramp,sm);
+    margin-bottom:map-get($margin-ramp,xl);
     line-height: map-get($leading-ramp,m);
     &.quote__intro{
       color:$secondary-color;
