@@ -43,7 +43,7 @@ class AppState extends React.Component{
       {
         id:3,
         content: {
-          title:'Church on the Northshore II',
+          title:'Church on the North Shore',
           subtitle: 'Watercolor Painting Original 16 x 20 Giclees available',
           description: 'Watercolor Painting Original 16 x 20 Giclees available',
           src: 'https://res.cloudinary.com/gestalt/image/upload/w_1100,q_60/v1561668763/painters-folio/Horizontal/Church_on_the_North_Shore_II_dislat.jpg',
@@ -144,11 +144,11 @@ class AppState extends React.Component{
           title:'Sidewalk Saunter',
           subtitle: 'Watercolor Painting Original 16 x 20 Giclees available',
           description: 'Watercolor Painting Original 16 x 20 Giclees available',
-          src: 'https://res.cloudinary.com/gestalt/image/upload/w_850,q_60/v1561330382/painters-portfolio/Sidewalk-saunter_nh2g98.jpg',
+          src: 'https://res.cloudinary.com/gestalt/image/upload/w_850,q_60/v1561668764/painters-folio/Horizontal/Sidewalk_Saunter_wfda9t.jpg',
           breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561330382/painters-portfolio/Sidewalk-saunter_nh2g98.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561330382/painters-portfolio/Sidewalk-saunter_nh2g98.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561330382/painters-portfolio/Sidewalk-saunter_nh2g98.jpg',
+            large: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668764/painters-folio/Horizontal/Sidewalk_Saunter_wfda9t.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668764/painters-folio/Horizontal/Sidewalk_Saunter_wfda9t.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668764/painters-folio/Horizontal/Sidewalk_Saunter_wfda9t.jpg',
           }
         }
       },
