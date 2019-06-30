@@ -20,9 +20,9 @@ class AppState extends React.Component{
           description: 'Watercolor Painting Original 16 x 20 Giclees available',
           src: 'https://res.cloudinary.com/gestalt/image/upload/v1561668776/painters-folio/Vertical/Colonel_-_Blue_and_Gold_Macaw_Brevard_Zoo_tptwuv.jpg',
           breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/w_500,q_80/v1561668776/painters-folio/Vertical/Colonel_-_Blue_and_Gold_Macaw_Brevard_Zoo_tptwuv.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/v1561668776/painters-folio/Vertical/Colonel_-_Blue_and_Gold_Macaw_Brevard_Zoo_tptwuv.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/v1561668776/painters-folio/Vertical/Colonel_-_Blue_and_Gold_Macaw_Brevard_Zoo_tptwuv.jpg',
+            large: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668776/painters-folio/Vertical/Colonel_-_Blue_and_Gold_Macaw_Brevard_Zoo_tptwuv.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668776/painters-folio/Vertical/Colonel_-_Blue_and_Gold_Macaw_Brevard_Zoo_tptwuv.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668776/painters-folio/Vertical/Colonel_-_Blue_and_Gold_Macaw_Brevard_Zoo_tptwuv.jpg',
           }
         }
       },
@@ -46,11 +46,11 @@ class AppState extends React.Component{
           title:'Church on the Northshore II',
           subtitle: 'Watercolor Painting Original 16 x 20 Giclees available',
           description: 'Watercolor Painting Original 16 x 20 Giclees available',
-          src: 'https://res.cloudinary.com/gestalt/image/upload/v1561668763/painters-folio/Horizontal/Church_on_the_North_Shore_II_dislat.jpg',
+          src: 'https://res.cloudinary.com/gestalt/image/upload/w_1000,q_60/v1561668763/painters-folio/Horizontal/Church_on_the_North_Shore_II_dislat.jpg',
           breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/v1561668763/painters-folio/Horizontal/Church_on_the_North_Shore_II_dislat.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/v1561668763/painters-folio/Horizontal/Church_on_the_North_Shore_II_dislat.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/v1561668763/painters-folio/Horizontal/Church_on_the_North_Shore_II_dislat.jpg'
+            large: 'https://res.cloudinary.com/gestalt/image/upload/w_1100,q_60//v1561668763/painters-folio/Horizontal/Church_on_the_North_Shore_II_dislat.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_800,q_60/v1561668763/painters-folio/Horizontal/Church_on_the_North_Shore_II_dislat.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60//v1561668763/painters-folio/Horizontal/Church_on_the_North_Shore_II_dislat.jpg'
           }
         }
       },
@@ -169,7 +169,7 @@ class AppState extends React.Component{
       {
         id:12,
         content: {
-          title:'Courtyar in Poipu',
+          title:'Courtyard in Poipu',
           subtitle: '2013 Merit Award Brush With Success, Viera, Florida',
           description: 'Watercolor Painting Original 16 X 20 Giclees available',
           src: 'https://res.cloudinary.com/gestalt/image/upload/v1561668783/painters-folio/Vertical/Courtyard_in_Poipu_h0xxzo.jpg',
