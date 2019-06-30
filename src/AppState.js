@@ -22,7 +22,7 @@ class AppState extends React.Component{
           breakpointImgs: {
             large: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668776/painters-folio/Vertical/Colonel_-_Blue_and_Gold_Macaw_Brevard_Zoo_tptwuv.jpg',
             medium: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668776/painters-folio/Vertical/Colonel_-_Blue_and_Gold_Macaw_Brevard_Zoo_tptwuv.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/w_500,q_60/v1561668776/painters-folio/Vertical/Colonel_-_Blue_and_Gold_Macaw_Brevard_Zoo_tptwuv.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668776/painters-folio/Vertical/Colonel_-_Blue_and_Gold_Macaw_Brevard_Zoo_tptwuv.jpg',
           }
         }
       },
@@ -46,7 +46,7 @@ class AppState extends React.Component{
           title:'Church on the Northshore II',
           subtitle: 'Watercolor Painting Original 16 x 20 Giclees available',
           description: 'Watercolor Painting Original 16 x 20 Giclees available',
-          src: 'https://res.cloudinary.com/gestalt/image/upload/w_1000,q_60/v1561668763/painters-folio/Horizontal/Church_on_the_North_Shore_II_dislat.jpg',
+          src: 'https://res.cloudinary.com/gestalt/image/upload/w_1100,q_60/v1561668763/painters-folio/Horizontal/Church_on_the_North_Shore_II_dislat.jpg',
           breakpointImgs: {
             large: 'https://res.cloudinary.com/gestalt/image/upload/w_1100,q_60/v1561668763/painters-folio/Horizontal/Church_on_the_North_Shore_II_dislat.jpg',
             medium: 'https://res.cloudinary.com/gestalt/image/upload/w_800,q_60/v1561668763/painters-folio/Horizontal/Church_on_the_North_Shore_II_dislat.jpg',
@@ -88,11 +88,11 @@ class AppState extends React.Component{
           title:'Paved Paradise',
           subtitle: 'Watercolor Painting Original 20 x 16 Giclees available',
           description: 'Watercolor Painting Original 20 x 16 Giclees available',
-          src: 'https://res.cloudinary.com/gestalt/image/upload/v1561668778/painters-folio/Horizontal/Paved_Paradise_ljz4ou.jpg',
+          src: 'https://res.cloudinary.com/gestalt/image/upload/w_900,q_50/v1561668778/painters-folio/Horizontal/Paved_Paradise_ljz4ou.jpg',
           breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/v1561668778/painters-folio/Horizontal/Paved_Paradise_ljz4ou.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/v1561668778/painters-folio/Horizontal/Paved_Paradise_ljz4ou.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/v1561668778/painters-folio/Horizontal/Paved_Paradise_ljz4ou.jpg'
+            large: 'https://res.cloudinary.com/gestalt/image/upload/w_900,q_50/v1561668778/painters-folio/Horizontal/Paved_Paradise_ljz4ou.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668778/painters-folio/Horizontal/Paved_Paradise_ljz4ou.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668778/painters-folio/Horizontal/Paved_Paradise_ljz4ou.jpg'
           }
         }
       },
@@ -102,7 +102,7 @@ class AppState extends React.Component{
           title:'Key West Christmas Palm',
           subtitle: 'Watercolor Painting Original 28 x 22 Giclees available',
           description: 'Watercolor Painting Original 28 x 22 Giclees available',
-          src: 'https://res.cloudinary.com/gestalt/image/upload/v1561668765/painters-folio/Horizontal/Key_West_Christmas_Palm_gwvddk.jpg',
+          src: 'https://res.cloudinary.com/gestalt/image/upload/w_1100,q_40/v1561668765/painters-folio/Horizontal/Key_West_Christmas_Palm_gwvddk.jpg',
           breakpointImgs: {
             large: 'https://res.cloudinary.com/gestalt/image/upload/w_1100,q_40/v1561668765/painters-folio/Horizontal/Key_West_Christmas_Palm_gwvddk.jpg',
             medium: 'https://res.cloudinary.com/gestalt/image/upload/w_800,q_60/v1561668765/painters-folio/Horizontal/Key_West_Christmas_Palm_gwvddk.jpg',
@@ -116,11 +116,11 @@ class AppState extends React.Component{
           title:'Ancient Corinth',
           subtitle: 'Watercolor Painting Original 20 x 16 Giclees available',
           description: 'Watercolor Painting Original 20 x 16 Giclees available',
-          src: 'https://res.cloudinary.com/gestalt/image/upload/v1561668770/painters-folio/Horizontal/Ancient_Corinth_bwgr4u.jpg',
+          src: 'https://res.cloudinary.com/gestalt/image/upload/w_900,q_50/v1561668770/painters-folio/Horizontal/Ancient_Corinth_bwgr4u.jpg',
           breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/v1561668770/painters-folio/Horizontal/Ancient_Corinth_bwgr4u.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/v1561668770/painters-folio/Horizontal/Ancient_Corinth_bwgr4u.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/v1561668770/painters-folio/Horizontal/Ancient_Corinth_bwgr4u.jpg',
+            large: 'https://res.cloudinary.com/gestalt/image/upload/w_900,q_50/v1561668770/painters-folio/Horizontal/Ancient_Corinth_bwgr4u.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668770/painters-folio/Horizontal/Ancient_Corinth_bwgr4u.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668770/painters-folio/Horizontal/Ancient_Corinth_bwgr4u.jpg',
           }
         }
       },
@@ -130,11 +130,11 @@ class AppState extends React.Component{
           title:'Right-Side Up',
           subtitle: 'Watercolor Painting Original 20 x 16 Giclees available',
           description: 'Watercolor Painting Original 20 x 16 Giclees available',
-          src: 'https://res.cloudinary.com/gestalt/image/upload/v1561668773/painters-folio/Horizontal/Right-side_Up_bxgraz.jpg',
+          src: 'https://res.cloudinary.com/gestalt/image/upload/w_900,q_50/v1561668773/painters-folio/Horizontal/Right-side_Up_bxgraz.jpg',
           breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/v1561668773/painters-folio/Horizontal/Right-side_Up_bxgraz.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/v1561668773/painters-folio/Horizontal/Right-side_Up_bxgraz.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/v1561668773/painters-folio/Horizontal/Right-side_Up_bxgraz.jpg',
+            large: 'https://res.cloudinary.com/gestalt/image/upload/w_900,q_50/v1561668773/painters-folio/Horizontal/Right-side_Up_bxgraz.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668773/painters-folio/Horizontal/Right-side_Up_bxgraz.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668773/painters-folio/Horizontal/Right-side_Up_bxgraz.jpg',
           }
         }
       },
@@ -144,11 +144,11 @@ class AppState extends React.Component{
           title:'Sidewalk Saunter',
           subtitle: 'Watercolor Painting Original 16 x 20 Giclees available',
           description: 'Watercolor Painting Original 16 x 20 Giclees available',
-          src: 'https://res.cloudinary.com/gestalt/image/upload/v1561330382/painters-portfolio/Sidewalk-saunter_nh2g98.jpg',
+          src: 'https://res.cloudinary.com/gestalt/image/upload/w_850,q_60/v1561330382/painters-portfolio/Sidewalk-saunter_nh2g98.jpg',
           breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/q_50/v1561330382/painters-portfolio/Sidewalk-saunter_nh2g98.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_400/v1561330382/painters-portfolio/Sidewalk-saunter_nh2g98.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/w_400/v1561330382/painters-portfolio/Sidewalk-saunter_nh2g98.jpg',
+            large: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561330382/painters-portfolio/Sidewalk-saunter_nh2g98.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561330382/painters-portfolio/Sidewalk-saunter_nh2g98.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561330382/painters-portfolio/Sidewalk-saunter_nh2g98.jpg',
           }
         }
       },
@@ -158,11 +158,11 @@ class AppState extends React.Component{
           title:'Library of Celsus, Ephesus',
           subtitle: 'Watercolor Painting Original 20 x 16 Giclees available',
           description: 'Watercolor Painting Original 20 x 16 Giclees available',
-          src: 'https://res.cloudinary.com/gestalt/image/upload/v1561668777/painters-folio/Horizontal/Library_of_Celsus_in_Ephesus_l5mjy0.jpg',
+          src: 'https://res.cloudinary.com/gestalt/image/upload/w_900,q_50/v1561668777/painters-folio/Horizontal/Library_of_Celsus_in_Ephesus_l5mjy0.jpg',
           breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/v1561668777/painters-folio/Horizontal/Library_of_Celsus_in_Ephesus_l5mjy0.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/v1561668777/painters-folio/Horizontal/Library_of_Celsus_in_Ephesus_l5mjy0.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/v1561668777/painters-folio/Horizontal/Library_of_Celsus_in_Ephesus_l5mjy0.jpg',
+            large: 'https://res.cloudinary.com/gestalt/image/upload/w_900,q_50/v1561668777/painters-folio/Horizontal/Library_of_Celsus_in_Ephesus_l5mjy0.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668777/painters-folio/Horizontal/Library_of_Celsus_in_Ephesus_l5mjy0.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668777/painters-folio/Horizontal/Library_of_Celsus_in_Ephesus_l5mjy0.jpg',
           }
         }
       },
@@ -172,11 +172,11 @@ class AppState extends React.Component{
           title:'Courtyard in Poipu',
           subtitle: '2013 Merit Award Brush With Success, Viera, Florida',
           description: 'Watercolor Painting Original 16 X 20 Giclees available',
-          src: 'https://res.cloudinary.com/gestalt/image/upload/v1561668783/painters-folio/Vertical/Courtyard_in_Poipu_h0xxzo.jpg',
+          src: 'https://res.cloudinary.com/gestalt/image/upload/w_900,q_50/v1561668783/painters-folio/Vertical/Courtyard_in_Poipu_h0xxzo.jpg',
           breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/w_900,q_40/v1561668783/painters-folio/Vertical/Courtyard_in_Poipu_h0xxzo.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_700,q_60/v1561668783/painters-folio/Vertical/Courtyard_in_Poipu_h0xxzo.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_50/v1561668783/painters-folio/Vertical/Courtyard_in_Poipu_h0xxzo.jpg',
+            large: 'https://res.cloudinary.com/gestalt/image/upload/w_900,q_50/v1561668783/painters-folio/Vertical/Courtyard_in_Poipu_h0xxzo.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668783/painters-folio/Vertical/Courtyard_in_Poipu_h0xxzo.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668783/painters-folio/Vertical/Courtyard_in_Poipu_h0xxzo.jpg',
           }
         }
       },
@@ -204,7 +204,7 @@ class AppState extends React.Component{
           breakpointImgs: {
             large: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668781/painters-folio/Vertical/Pineapple_on_the_Banana_River_g8tglx.jpg',
             medium: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668781/painters-folio/Vertical/Pineapple_on_the_Banana_River_g8tglx.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/w_500,q_60/v1561668781/painters-folio/Vertical/Pineapple_on_the_Banana_River_g8tglx.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668781/painters-folio/Vertical/Pineapple_on_the_Banana_River_g8tglx.jpg',
           }
         }
       },
@@ -214,11 +214,11 @@ class AppState extends React.Component{
           title:'Plumes in Bloom',
           subtitle: 'Roseate Spoonbill, 2019 Montgomery City Hall Exhibition Montgomery, Alabama',
           description: 'Watercolor Painting Original 16 X 20 Giclees available',
-          src: 'https://res.cloudinary.com/gestalt/image/upload/v1561668785/painters-folio/Vertical/Plumes_in_Bloom_vdasfk.jpg',
+          src: 'https://res.cloudinary.com/gestalt/image/upload/w_900,q_50/v1561668785/painters-folio/Vertical/Plumes_in_Bloom_vdasfk.jpg',
           breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/v1561668785/painters-folio/Vertical/Plumes_in_Bloom_vdasfk.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/v1561668785/painters-folio/Vertical/Plumes_in_Bloom_vdasfk.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/v1561668785/painters-folio/Vertical/Plumes_in_Bloom_vdasfk.jpg',
+            large: 'https://res.cloudinary.com/gestalt/image/upload/w_900,q_50/v1561668785/painters-folio/Vertical/Plumes_in_Bloom_vdasfk.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668785/painters-folio/Vertical/Plumes_in_Bloom_vdasfk.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668785/painters-folio/Vertical/Plumes_in_Bloom_vdasfk.jpg',
           }
         }
       },
@@ -228,7 +228,7 @@ class AppState extends React.Component{
           title:`Hoo's Hideout`,
           subtitle: '2019 Montgomery City Hall Exhibition, Montgomery, Alabama',
           description: 'Acrylic Painting Original 20 x 16 Giclees available',
-          src: 'https://res.cloudinary.com/gestalt/image/upload/v1561668769/painters-folio/Horizontal/Hoos_Hideout_ztwc19.jpg',
+          src: 'https://res.cloudinary.com/gestalt/image/upload/w_1100,q_40/v1561668769/painters-folio/Horizontal/Hoos_Hideout_ztwc19.jpg',
           breakpointImgs: {
             large: 'https://res.cloudinary.com/gestalt/image/upload/w_1100,q_40/v1561668769/painters-folio/Horizontal/Hoos_Hideout_ztwc19.jpg',
             medium: 'https://res.cloudinary.com/gestalt/image/upload/w_800,q_60/v1561668769/painters-folio/Horizontal/Hoos_Hideout_ztwc19.jpg',
@@ -242,7 +242,7 @@ class AppState extends React.Component{
           title:'The Lure of Leaves',
           subtitle: '2014 Merit Award Brush With Success, Viera, Florida 2016 Merit Award 100% Florida Fifth Avenue Art Gallery, Melbourne, Florida',
           description: 'Watercolor Painting Original 20 x 16 Giclees available',
-          src: 'https://res.cloudinary.com/gestalt/image/upload/v1561668771/painters-folio/Horizontal/The_Lure_of_Leaves_-_ZAPP_huw1j4.jpg',
+          src: 'https://res.cloudinary.com/gestalt/image/upload/w_1100,q_40/v1561668771/painters-folio/Horizontal/The_Lure_of_Leaves_-_ZAPP_huw1j4.jpg',
           breakpointImgs: {
             large: 'https://res.cloudinary.com/gestalt/image/upload/w_1100,q_40/v1561668771/painters-folio/Horizontal/The_Lure_of_Leaves_-_ZAPP_huw1j4.jpg',
             medium: 'https://res.cloudinary.com/gestalt/image/upload/w_800,q_60/v1561668771/painters-folio/Horizontal/The_Lure_of_Leaves_-_ZAPP_huw1j4.jpg',
@@ -256,11 +256,11 @@ class AppState extends React.Component{
           title:'Color Therapy',
           subtitle: '2017 Merit Award Brush With Success, Viera, Florida',
           description: 'Watercolor Painting Original 20 X 16 Giclees available',
-          src: 'https://res.cloudinary.com/gestalt/image/upload/v1561668773/painters-folio/Horizontal/Color_Therapy_b0lps2.jpg',
+          src: 'https://res.cloudinary.com/gestalt/image/upload/w_900,q_50/v1561668773/painters-folio/Horizontal/Color_Therapy_b0lps2.jpg',
           breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/v1561668773/painters-folio/Horizontal/Color_Therapy_b0lps2.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/v1561668773/painters-folio/Horizontal/Color_Therapy_b0lps2.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/v1561668773/painters-folio/Horizontal/Color_Therapy_b0lps2.jpg',
+            large: 'https://res.cloudinary.com/gestalt/image/upload/w_900,q_50/v1561668773/painters-folio/Horizontal/Color_Therapy_b0lps2.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668773/painters-folio/Horizontal/Color_Therapy_b0lps2.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668773/painters-folio/Horizontal/Color_Therapy_b0lps2.jpg',
           }
         }
       },
@@ -270,11 +270,11 @@ class AppState extends React.Component{
           title:'Ablaze',
           subtitle: '2016 Merit Award Brush With Success, Viera, Florida',
           description: 'Acrylic Painting Original 16 X 20 Giclees available',
-          src: 'https://res.cloudinary.com/gestalt/image/upload/v1561668780/painters-folio/Vertical/Ablaze_rgzykh.jpg',
+          src: 'https://res.cloudinary.com/gestalt/image/upload/w_900,q_50/v1561668780/painters-folio/Vertical/Ablaze_rgzykh.jpg',
           breakpointImgs: {
-            large: 'https://res.cloudinary.com/gestalt/image/upload/v1561668780/painters-folio/Vertical/Ablaze_rgzykh.jpg',
-            medium: 'https://res.cloudinary.com/gestalt/image/upload/v1561668780/painters-folio/Vertical/Ablaze_rgzykh.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/v1561668780/painters-folio/Vertical/Ablaze_rgzykh.jpg',
+            large: 'https://res.cloudinary.com/gestalt/image/upload/w_900,q_50/v1561668780/painters-folio/Vertical/Ablaze_rgzykh.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668780/painters-folio/Vertical/Ablaze_rgzykh.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668780/painters-folio/Vertical/Ablaze_rgzykh.jpg',
           }
         }
       },
@@ -288,7 +288,7 @@ class AppState extends React.Component{
           breakpointImgs: {
             large: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668782/painters-folio/Vertical/Naturometry_hm7k1i.jpg',
             medium: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668782/painters-folio/Vertical/Naturometry_hm7k1i.jpg',
-            small: 'https://res.cloudinary.com/gestalt/image/upload/w_500,q_60/v1561668782/painters-folio/Vertical/Naturometry_hm7k1i.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668782/painters-folio/Vertical/Naturometry_hm7k1i.jpg',
           }
         }
       }
