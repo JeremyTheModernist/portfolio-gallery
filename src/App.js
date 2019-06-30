@@ -42,7 +42,7 @@ class App extends React.Component{
 
             <MediumImage id={6}/>
             <XSmallImage id={1} empty={true}/>
-            <SmallImage id={5}/>
+            <SmallImage id={10}/>
 
 
 
