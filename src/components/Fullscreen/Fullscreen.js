@@ -13,7 +13,11 @@ class Fullscreen extends React.Component{
           <div className="fullscreenContent__words col-1">
               <h2 className="fullscreenContent__title">{context.selected.title}</h2>
               <p className="fullscreenContent__description">{context.selected.description}</p>
-              <a className="fullscreenContent__link">Contact for More Info</a>
+              <a className="fullscreenContent__link"
+                 href="mailto:m_mcinarnay@bellsouth.net"
+                 target="_top">
+                 Contact for More Info
+              </a>
           </div>
           <div className="fullscreenContent__image col-4">
             <img src={context.selected.src}/>

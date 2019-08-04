@@ -16,7 +16,7 @@ function Navigation(){
                   About
                 </li>
                 <li className="navigation__item">
-                  Contact
+                  <a href="mailto:m_mcinarnay@bellsouth.net" target="_top">Contact</a>
                 </li>
               </ul>
             </div>

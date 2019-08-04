@@ -43,7 +43,7 @@ class AppState extends React.Component{
       {
         id:3,
         content: {
-          title:'Church on the North Shore',
+          title:'Church on the North Shore II',
           subtitle: 'Watercolor Painting Original 16 x 20 Giclees available',
           description: 'Watercolor Painting Original 16 x 20 Giclees available',
           src: 'https://res.cloudinary.com/gestalt/image/upload/w_1100,q_60/v1561668763/painters-folio/Horizontal/Church_on_the_North_Shore_II_dislat.jpg',
@@ -291,7 +291,21 @@ class AppState extends React.Component{
             small: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668782/painters-folio/Vertical/Naturometry_hm7k1i.jpg',
           }
         }
-      }
+      },
+      {
+        id:21,
+        content: {
+          title:'Church on the Northshore I',
+          subtitle: 'Watercolor Painting Original 16 X 20 Giclees available',
+          description: 'Watercolor Painting Original 16 X 20 Giclees available',
+          src: 'https://res.cloudinary.com/gestalt/image/upload/w_900,q_50/v1561668780/painters-folio/Vertical/Church_on_the_North_Shore_bhc59m.jpg',
+          breakpointImgs: {
+            large: 'https://res.cloudinary.com/gestalt/image/upload/w_900,q_50/v1561668780/painters-folio/Vertical/Church_on_the_North_Shore_bhc59m.jpg',
+            medium: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668780/painters-folio/Vertical/Church_on_the_North_Shore_bhc59m.jpg',
+            small: 'https://res.cloudinary.com/gestalt/image/upload/w_600,q_60/v1561668780/painters-folio/Vertical/Church_on_the_North_Shore_bhc59mjpg',
+          }
+        }
+      },
 
     ],
     toggleFullscreen: (payload) => {

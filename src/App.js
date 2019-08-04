@@ -53,7 +53,6 @@ class App extends React.Component{
             <MediumImage id={8}/>
             <MediumImage id={9}/>
 
-
             <XSmallImage id={1} empty={true}/>
             <Quote colNum={5}>
               I have always obsessed over details. When I paint, I am constantly
@@ -65,9 +64,15 @@ class App extends React.Component{
             <XSmallImage id={1} empty={true}/>
             <SmallImage id={13}/>
 
-            <SmallImage id={14}/>
             <XSmallImage id={1} empty={true}/>
+            <MediumImage id={21}/>
+            <XSmallImage id={1} empty={true}/>
+            <XSmallImage id={1} empty={true}/>
+
             <MediumImage id={15}/>
+            <XSmallImage id={1} empty={true}/>
+            <SmallImage id={14}/>
+
 
             <XSmallImage id={1} empty={true}/>
             <LargeImage id={17}/>

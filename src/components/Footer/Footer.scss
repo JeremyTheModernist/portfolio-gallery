@@ -23,10 +23,10 @@
     }
     @include breakpoint(medium){
       font-size:map-get($type-ramp,lg);
-      width:80%;
+      width:100%;
     }
     @include breakpoint(large){
-      width:800px;
+      width:900px;
       font-size:map-get($type-ramp,xl);
       margin-bottom:map-get($margin-ramp,xxxl);
     }
