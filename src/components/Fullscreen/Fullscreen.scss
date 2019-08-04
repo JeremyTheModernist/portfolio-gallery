@@ -14,7 +14,7 @@
     transition:.45s;
     background-color: rgba(255,255,255,1);
     @include breakpoint(medium){
-      background-color: rgba(255,255,255,.9);
+      background-color: rgba(255,255,255,1);
     }
   }
   &--hidden{
