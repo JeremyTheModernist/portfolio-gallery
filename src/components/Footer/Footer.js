@@ -4,7 +4,7 @@ function Footer(props){
   return(
     <div class="footer">
     <div class="footer__container">
-      <div class="footer__contact">For inquiries around purchasing or further info, please message me at<a href="mailto:m_mcinarnay@bellsouth.net">m_mcinarnay@bellsouth.net</a></div>
+      <div class="footer__contact">For inquiries around purchasing or further info, please message me at <a href="mailto:m_mcinarnay@bellsouth.net">m_mcinarnay@bellsouth.net</a></div>
       <ul class="footer__byline">
         <li class="footer__bio">
           Margie McInarnay is an artist and painter living and working out of Montgomery, AL.
